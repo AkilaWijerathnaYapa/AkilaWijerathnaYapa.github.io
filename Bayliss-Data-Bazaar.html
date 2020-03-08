@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Bayliss Data Bazaar 2019</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Akila Wijerathna-Yapa</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+Courses
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="Bayliss-Data-Bazaar.html">Bayliss-Data-Bazaar</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="Symposia & Workshops.html">Symposia & Workshops</a>
+</li>
+<li>
+  <a href="bemis-cv.pdf">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Bayliss Data Bazaar 2019</h1>
+
+</div>
+
+
+<div id="introduction-to-data-management-and-processing" class="section level2">
+<h2>Introduction to Data Management and Processing</h2>
+
+<p><strong>Main Organizer:</strong> <strong>Akila Wijerathna-Yapa</strong></a> | <a href="mailto:k.bemis@northeastern.edu" class="email">akila.yapa@research.uwa.edu.au</a> | <em>Office Hours:</em> Wednesdays 2:00 pm - 3:00 pm @ School of Molecular Sciences; Room 4.16 or by appointment</p>
+<p><strong>Co-Organizer:</strong> <strong>Prof. Valerie Verhasselt</strong></a> | <a href="mailto:k.bemis@northeastern.edu" class="email">valerie.verhasselt@uwa.edu.au</a> | <em>Office Hours:</em> by appointment</p>
+
+<div id="overview" class="section level2">
+<h2>Overview</h2>
+<p>
+This workshop will familiarise you with the basics of R through the RStudio interface and the tidyverse suite of R packages. You will be introduced to modern approaches to data analysis and visualization. The focus is on mastering basic skills and showing you where to go for help so you can undertake future analyses independently. By the end of this workshop you will know how to create and organize new “projects” in RStudio; read in data files; visualize data using the popular ggplot2 package; perform various data manipulation, summarization and modelling tasks; and create reproducible reports for bioinformatics analysis pipelines.Further, this course discusses the practical issues and techniques for data importing, tidying, transforming, and modeling. It offers a gentle introduction to techniques for processing big data. Programming is a cross-cutting aspect of the course. Participants will gain experience with data science tools through short assignments. The course work includes a term project based on real-world data. Required topics include: Data management and processing: definition &amp; background; Data transformation; Data import; Data cleaning; Data modeling; Relational and analytic databases; Basics of Excel; Programming in R; Data processing pipelines, connecting multiple data management and analysis components; Interaction between the capabilities and requirements of data analysis methods (data structures, basic statistics) and the choice of data storage and management tools; Repeatable and reproducible data analysis.
+</p>
+<p>
+Most bioinformatics tools are designed to be run from the command line hence the ability to run simple command line programs is an essential bioinformatics skill. This workshop will familiarise you with the basics of the Unix command line interface. We will show you how to navigate the file structure, run simple programs with arguments and open files. To keep it relevant to bioinformatics, we will demonstrate the samtools program and learn how to peer inside some common bioinformatic file formars (e.g. BAM file and fastq files) 
+</p>
+<p>
+In this course, we will introduce you to the different types of scientific articles and provide an outline of how to write an original research article describing your original scientific research.To enable you to write scientific research articles that can be published and to equip them with skills to cite and manage references/ bibliography while writing using a reference management tool such as EndNote.
+</p>
+<div id="schedule" class="section level3">
+<h2>Course Material and Schedule</h2>
+
+<p><strong>Course Material:</strong> <a href="https://docs.google.com/document/d/1EdbrjD-_NtXWf_3XkClu75dB_qhUQWmbxrD9-IgBNlM/edit#"><em>Bayliss Data Bazaar Instructions Manual</em></a></p>
+<p><strong>Schedule:</strong> 8.00 am - 5:00 pm</p>
+<p><strong>Location:</strong> 373 Economics & commerce conference room, PHYS: [ 215] Lecture Room </p>
+<p><strong>Dates:</strong> 28th - 30th August 2019</p>
+
+<div id="schedule" class="section level3">
+<h2>Teaching team</h2>
+<p><strong>TA:</strong> <strong>Assoc.Prof. Josh Mylne</strong> | <a href="mailto:joshua.mylne@uwa.edu.au " class="email">joshua.mylne@uwa.edu.au</a> 
+<p><strong>TA:</strong> <strong>Dr. Jakob Petereit</strong> | <a href="mailto:jakob.petereit@research.uwa.edu.au" class="email">jakob.petereit@research.uwa.edu.au</a> 
+<p><strong>TA:</strong> <strong>Brady Johnston</strong> | <a href="mailto:brady.johnston@research.uwa.edu.au" class="email">brady.johnston@research.uwa.edu.au</a> 
+<p><strong>TA:</strong> <strong>Dr. Patricia Macchiaverni</strong> | <a href="mailto:patricia.macchiaverni@uwa.edu.au " class="email">patricia.macchiaverni@uwa.edu.au </a> 
+<p><strong>TA:</strong> <strong>Farley Kwok van der Giezen</strong> | <a href="mailto:farley.kwokvandergiezen@research.uwa.edu.au" class="email">farley.kwokvandergiezen@research.uwa.edu.au</a> 
+<p><strong>TA:</strong> <strong>Dr. Saskia Freytag</strong> | <a href="mailto:saskia.freytag@perkins.uwa.edu.au" class="email">saskia.freytag@perkins.uwa.edu.au</a>
+<p><strong>TA:</strong> <strong>Dr. Joanne Edmondston</strong> | <a href="mailto:joanne.edmondston@uwa.edu.au" class="email">joanne.edmondston@uwa.edu.au</a> 
+<p><strong>TA:</strong> <strong>Dr.James Lloyd</strong> | <a href="mailto:james.lloyd@uwa.edu.au" class="email">james.lloyd@uwa.edu.au</a> 
+<p><strong>TA:</strong> <strong>Dulce Vargas Landin</strong> | <a href="mailto:dulce.vargaslandin@research.uwa.edu.au" class="email">dulce.vargaslandin@research.uwa.edu.au</a>
+<p><strong>TA:</strong> <strong>Kylie Black</strong> | <a href="kylie.black@uwa.edu.au" class="email">kylie.black@uwa.edu.au</a> 
+
+
+
+
+
+<p><strong>Required Textbooks:</strong> <a href="http://r4ds.had.co.nz/"><em>R for Data Science</em></a> (<strong>R4DS</strong>) by Wickham and Grolemund, <a href="https://www.tidytextmining.com"><em>Text Mining with R</em></a> (<strong>TMR</strong>) by Silge and Robinson</p>
+<p><strong>Supplementary Textbooks:</strong> <a href="http://adv-r.had.co.nz/"><em>Advanced R</em></a> (<strong>AdvR</strong>) by Wickham, <a href="http://r-pkgs.had.co.nz"><em>R Packages</em></a> (<strong>Rpkg</strong>) by Wickham</p>
+<hr />
+</div>
+
+
+<div id="Timetable" class="section level2">
+<h2>Timetable</h2>
+
+<center>
+<img src="images/Timetable.JPG" />
+</center>
+<hr />
+</div>
+
+
+</body>
+</html>
