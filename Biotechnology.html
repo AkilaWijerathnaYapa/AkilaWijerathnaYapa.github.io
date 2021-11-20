@@ -5,13 +5,13 @@
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>Akila Wijerathna-Yapa</title>
+<title>Biotechnology</title>
 
 <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -158,7 +158,7 @@ $(document).ready(function () {
   document.head.appendChild(style);
 });
 </script>
-  
+
 <!-- tabsets -->
 
 <style type="text/css">
@@ -167,7 +167,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -203,6 +202,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -214,18 +214,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -264,11 +252,11 @@ $(document).ready(function () {
   <a href="publications.html">Publications</a>
 </li>
 <li>
-  <a href="Symposia & Workshops.html">Software</a>
+  <a href="Symposia-and-Workshops.html">Symposia &amp; Workshops</a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-Teaching Courses & Workshops
+    Teaching Courses &amp; Workshops
      
     <span class="caret"></span>
   </a>
@@ -276,8 +264,8 @@ Teaching Courses & Workshops
     <li>
       <a href="Bayliss-Data-Bazaar.html">Bayliss Data Bazaar</a>
     </li>
-     <li>
-      <a href="Biotechnology.html">Introduction to Biotechnology</a>
+    <li>
+      <a href="Plant Biotechnology.html">Plant Biotechnology</a>
     </li>
     <li>
       <a href="Plant-Tissue-Culture.html">Plant Tissue Culture</a>
@@ -285,29 +273,38 @@ Teaching Courses & Workshops
     <li>
       <a href="Plant-Molecular-Biology.html">Plant Molecular Biology</a>
     </li>
-     <li>
-      <a href="Plant Molecular Physiology.html">Plant Molecular Physiology</a>
+    <li>
+      <a href="Plant-Molecular-Physiology.html">Plant Molecular Physiology</a>
+    </li>
+    <li>
+      <a href="Controlled-Environment-Agriculture.html">Controlled Environment Agriculture (CEA)</a>
     </li>
   </ul>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-Laboratory Protocols
+    Laboratory Protocols
      
-   <span class="caret"></span>
+    <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="Protein-Extraction.html">Protein Extraction</a>
-    </li>
     <li>
       <a href="DNA-Extraction.html">DNA Extraction</a>
     </li>
     <li>
-      <a href="RNA-Extraction.html">RNA Extraction</a>
+      <a href="RNA Extraction.html">RNA Extraction</a>
     </li>
-     <li>
-      <a href="Progeny-test.html">Progeny test</a>
+    <li>
+      <a href="Protein-Extraction.html">Protein Extraction</a>
+    </li>
+    <li>
+      <a href="Yeast-Transformation.html">Yeast Transformation</a>
+    </li>
+    <li>
+      <a href="Yeast-Two-Hybrid.html">Yeast Two-Hybrid</a>
+    </li>
+    <li>
+      <a href="Homozygous Transgenic Selection.html">Homozygous Transgenic Selection</a>
     </li>
   </ul>
 </li>
@@ -319,17 +316,24 @@ Laboratory Protocols
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
+<h1 class="title toc-ignore">Biotechnology</h1>
 
 </div>
 
 
-<div id="AkilaWijerathnaYapa.github.io" class="section level1">
-<h1>AkilaWijerathnaYapa.github.io</h1>
-<p>Akila Wijerathna-Yapa</p>
+<div id="introduction-to-biotechnology" class="section level2">
+<h2>Introduction to Biotechnology</h2>
+<p><strong>Schedule:</strong> Tuesdays 6:00 pm - 9:15 pm</p>
+<p><strong>Location:</strong> Zoom</p>
+<p><strong>Dates:</strong> Jan 19, 2021 - Apr 24, 2021</p>
+<p><strong>Instructor:</strong> <a href="https://www.researchgate.net/profile/Akila-Wijerathna-Yapa"><strong>Akila Wijerathna Yapa</strong></a> <em>Virtual Office Hours:</em> Thursdays 3:00 pm - 4:00 pm @ Microsoft Teams or by appointment</p>
+<p><strong>TA:</strong> <strong>TBC</strong> |</p>
+<p><em>Virtual Office Hours:</em></p>
+<p><strong>Required Textbooks:</strong></p>
 </div>
 
 
@@ -341,7 +345,7 @@ Laboratory Protocols
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -349,6 +353,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

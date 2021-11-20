@@ -1,0 +1,46 @@
+
+name: "Akila Wijerathna-Yapa"
+output_dir: "."
+navbar:
+  title: "Akila Wijerathna-Yapa"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: research.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Symposia & Workshops"
+      href: Symposia-and-Workshops.html
+    - text: "Teaching Courses & Workshops"
+      menu:
+        - text: Bayliss Data Bazaar
+          href: Bayliss-Data-Bazaar.html
+        - text: Plant Biotechnology
+          href: Plant Biotechnology.html
+        - text: Plant Tissue Culture
+          href: Plant-Tissue-Culture.html
+        - text: Plant Molecular Biology
+          href: Plant-Molecular-Biology.html
+        - text: Plant Molecular Physiology
+          href: Plant-Molecular-Physiology.html
+        - text: Controlled Environment Agriculture (CEA)
+          href: Controlled-Environment-Agriculture.html
+    - text: "Laboratory Protocols"
+      menu:
+        - text: DNA Extraction
+          href: DNA-Extraction.html
+        - text: RNA Extraction
+          href: RNA Extraction.html
+        - text: Protein Extraction
+          href: Protein-Extraction.html
+        - text: Yeast Transformation
+          href: Yeast-Transformation.html
+        - text: Yeast Two-Hybrid
+          href: Yeast-Two-Hybrid.html
+        - text: Homozygous Transgenic Selection
+          href: Homozygous Transgenic Selection.html
+
+output:
+  html_document:
+    css: style.css
