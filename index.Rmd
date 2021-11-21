@@ -19,6 +19,39 @@ My academic background is in agriculture and plant biotechnology has imbued me w
 
 Since my undergraduate studies I am enjoying sharing the knowledge I gained from the university with the wider public. To this end I joined with the business magazines, to write articles related to biotechnology, genetically modified organisms and agriculture. I believe scientists need to communicate with business to explain the opportunities our new technologies can provide for them and their customers.
 
-***
 
-*Email: akila.ymw@gmail.com*
+**Education**
+
+**Ph.D. (Plant Physiol. Biochem.)** | The University of Western Australia, Australia | (2017-2020)
+
+_**Thesis:**_ _Unravelling the underlying components of autophagy-mediated photomorphogenesis of Arabidopsis thaliana._
+
+I completed the experiments at three research laboratories:
+
+The University of Western Australia: LC-MS/MS Proteomics: targeted and shotgun, Bioinformatics, Biochemistry, Isotope labelling, Physiology
+
+The Australian National University: NGS– RNASeq, Bioinformatics, Plant Physiology
+
+The Harry Perkins Institute of Medical Research: Microscopic studies
+
+
+**M.Sc. Agric. (Plant Sciences)** | The Hebrew University of Jerusalem, Israel | (2014-2016)
+
+_**Thesis:**_ _Analysis of constitutively Active PYRABACTIN RESISTANCE1/ PYR1 LIKE (PYL) receptors in the early development of Arabidopsis thaliana._
+
+_**Side Project:**_ _Identifying the function and biological role of novel protein (ABA receptor-like protein) and its interactor proteins by Y2H screen with Arabidopsis thaliana cDNA library._
+
+
+**B.Sc. Agric. (Hons) [Biotechnology]** | Wayamba University of Sri Lanka | (2008-2012)
+
+_**Research Project:**_ _Screening of traditional rice (Oryza sativa L.) varieties for salt tolerance and molecular genetic screening of fragrant gene (badh2.1)._ 
+
+_**In-Plant Training:**_ _Application of Biotechnology in Intra Cellular Pathogen Diagnostic of Coconut (Cocos nucifera L.) in Sri Lanka._
+
+
+
+
+***
+<center>
+[![](images/EN.png){width=25px}](akila.ymw@gmail.com) [![](images/Ln.png){width=25px}](https://www.linkedin.com/in/akila-wijerathna-yapa) [![](images/RG.png){width=25px}](https://www.researchgate.net/profile/Akila-Wijerathna-Yapa)  [![](images/GS.png){width=25px}](https://scholar.google.com/citations?user=VABVqKIAAAAJ&hl=en) [![](images/ID.png){width=25px}](https://orcid.org/0000-0003-1935-8590) [![](images/TW.png){width=25px}](https://twitter.com/AkilaWijerathna) [![](images/GH.png){width=25px}](https://github.com/AkilaWijerathnaYapa)
+</center>
