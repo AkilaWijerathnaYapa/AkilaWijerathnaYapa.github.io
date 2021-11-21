@@ -52,9 +52,13 @@ In this course, we will introduce you to the different types of scientific artic
 
 
 **Required Textbooks:** 
-[**R for Data Science**](http://r4ds.had.co.nz/) by Hadley Wickham and Garrett Grolemund 
+
+[**R for Data Science**](http://r4ds.had.co.nz/) by Hadley Wickham and Garrett Grolemund
+
 [**Text Mining with R**](https://www.tidytextmining.com) by Silge and Robinson
+
 [**Advanced R**](http://adv-r.had.co.nz/) by Hadley Wickham
+
 [**R Packages**](http://r-pkgs.had.co.nz) by  Hadley Wickham
 
 
@@ -62,7 +66,7 @@ In this course, we will introduce you to the different types of scientific artic
 
 ***
 <center>
-![](images/Timetable.jpg) {width=750px}
+![](images/Timetable.jpg) 
 
 </center>
 ***
