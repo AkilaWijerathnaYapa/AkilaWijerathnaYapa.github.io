@@ -6,7 +6,6 @@ title: "Selected Publications"
 
 **In Review**
 
-- **_Wijerathna-Yapa, A._** and Pathirana, R. 2021. Climate Change, Food Security and Sustainable Food Systems. In - Wong, M. H., Purchase, P. and Dickinson, N. (Eds.), Food Waste as a Resource: Food, Feed, Fertilizer, - Fuel. World Scientific. (In Press)
 - Li, L., Duncan, O., Ganguly, D.R., Lee, C.P., Crisp, P., **_Wijerathna-Yapa, A._**, Pogson, B.J., Salih, K., - Trosch, J., Millar, A.H., and Pogson, B.J. 2021. Metabolic enzymes degraded under high light stress - maintain their proteostasis by coupled transcriptional regulation in Arabidopsis. bioRxiv.doi: https://doi.org/10.1101/2021.10.03.462903
 - Li, L., Lee, C. P., **_Wijerathna-Yapa, A._**, Broda, M., Otegui, M. S., Ganguly, D.R., Pogson, B.J., and Millar. H. 2021. Defects in autophagy lead to selective in vivo changes in turnover of cytosolic and organelle proteins in roots and shoots of Arabidopsis. bioRxiv.doi: https://doi.org/10.1101/2021.04.29.441983
 
@@ -38,6 +37,8 @@ title: "Selected Publications"
 
 **Magazine Article Publications**
 
+- **_Akila Wijerathna._** Supply Chain Disruptions as a result of COVID-19. LMD. January 2022. 144.
+- **_Akila Wijerathna._** Post-COVID food security. LMD. December 2021. 184.
 - **_Akila Wijerathna._** Pest control in Agri-Food. LMD. November 2021. 115.
 - **_Akila Wijerathna._** AI and Climate Emergencies. LMD. October 2021. 69.
 - **_Akila Wijerathna._** Bio-based farm economy. LMD. September 2021. 132.
