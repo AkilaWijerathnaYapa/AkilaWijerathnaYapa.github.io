@@ -4,7 +4,7 @@ title: "Selected Publications"
 
 ***
 
-**In Review/Preprint**
+**Preprints**
 
 - Li, L., Duncan, O., Ganguly, D.R., Lee, C.P., Crisp, P., **_Wijerathna-Yapa, A._**, Pogson, B.J., Salih, K., - Trosch, J., Millar, A.H., and Pogson, B.J. 2021. Metabolic enzymes degraded under high light stress - maintain their proteostasis by coupled transcriptional regulation in Arabidopsis. bioRxiv.doi: https://doi.org/10.1101/2021.10.03.462903
 - Li, L., Lee, C. P., **_Wijerathna-Yapa, A._**, Broda, M., Otegui, M. S., Ganguly, D.R., Pogson, B.J., and Millar. H. 2021. Defects in autophagy lead to selective in vivo changes in turnover of cytosolic and organelle proteins in roots and shoots of Arabidopsis. bioRxiv.doi: https://doi.org/10.1101/2021.04.29.441983
@@ -12,20 +12,26 @@ title: "Selected Publications"
 
 **Peer-reviewed Scientific Journal Articles**
 
+- Li, L., Duncan, O., Ganguly, D.R., Lee, C.P., Crisp, P., **_Wijerathna-Yapa, A._**, Pogson, B.J., Salih, K., - Trosch, J., Millar, A.H., and Pogson, B.J. 2022. Metabolic enzymes degraded under high light stress - maintain their proteostasis by coupled transcriptional regulation in Arabidopsis. Proceedings of the National Academy of Sciences 119(20) e2121362119.doi: https://doi.org/10.1073/pnas.2121362119
 - **_Wijerathna-Yapa, A._**, Signorelli, S., Fenske, R., Ganguly, D.R., Stroeher, F., Li,L., Pogson, B.J., Duncan, O., and Millar. H. 2021 Autophagy mutants show delayed chloroplast development during de-etiolation in carbon limiting conditions. The Plant Journal. doi: https://doi.org/10.1111/tpj.15452
 - **_Wijerathna-Yapa, A._**, Stroeher, E., Fenske,R., Li, L., Duncan, O., and Millar, H. 2020. Proteomics for Autophagy Receptor and Cargo Identification in Plants. J. Proteome Res. American Chemical Society. doi: https://doi.org/10.1021/acs.jproteome.0c00609
-- Sun, Y., Harpazi, B., **_Wijerathna-Yapa, A._**, Merilo, E., de Vries, J., Michaeli, D., Gal, M., Cuming, A., - Kollist, H. and Mosquna, A., 2019. A ligand-independent origin of abscisic acid perception. In Proceedings - of the National Academy of Science. National Academy of Sciences. 116 (49) 24892-24899.doi: https://doi.org/10.1073/pnas.1914480116
-- **_Wijerathna-Yapa, A._** 2017. Effect on Biodrying and Rapid Drying of Food Wastes for Biochar Manufacturing. - Agri Res & Tech 7 (5), 555722.doi:10.19080/ARTOAJ.2017.07.555722
+- Sun, Y., Harpazi, B., **_Wijerathna-Yapa, A._**, Merilo, E., de Vries, J., Michaeli, D., Gal, M., Cuming, A., - Kollist, H. and Mosquna, A., 2019. A ligand-independent origin of abscisic acid perception. Proceedings of the National Academy of Science. National Academy of Sciences. 116 (49) 24892-24899.doi: https://doi.org/10.1073/pnas.1914480116
+- **_Wijerathna-Yapa, A._** 2017. Effect on Biodrying and Rapid Drying of Food Wastes for Biochar Manufacturing. - Agri Res & Tech 7 (5), 555722.[doi:10.19080/ARTOAJ.2017.07.555722](https://juniperpublishers.com/artoaj/ARTOAJ.MS.ID.555722.php)
 - Kumarihami H.M.P.C., **_Wijerathna, Y.M.A.M._**, Beneragama, C.K.  2017. Extending the postharvest life of cut - flowers with floral preservative: mini review. Proceedings of the National Symposium on Floriculture - Research, Department of National Botanic Gardens, Sri Lanka. 52-60.
 - **_Wijerathna-Yapa, A._** 2017. Transgenic plants: resistance to abiotic and biotic stresses.  JAEID, 111 (1): 245-275.doi: https://doi.org/10.12895/jaeid.20171.643
-- **_Wijerathna, Y.M.A.M._** and Kumarihami H.M.P.C. 2016. Effects of Different Hormonal Concentrations and - Culture Medium on Multiplication and Rooting of Stage II Banana (Musa cavendishii). Not Sci Biol, 8(1):69-72. doi: https://doi.org/10.15835/nsb819749
+- **_Wijerathna, Y.M.A.M._** and Kumarihami H.M.P.C. 2016. Effects of Different Hormonal Concentrations and - Culture Medium on Multiplication and Rooting of Stage II Banana (_Musa cavendishii_). Not Sci Biol, 8(1):69-72. doi: https://doi.org/10.15835/nsb819749
 - **_Wijerathna, Y.M.A.M._** 2015. Marker-Assisted Selection: Biotechnology Tool for Rice Molecular Breeding. Adv Crop Sci Tech 3: 187. doi:10.4172/2329-8863.1000187.
 - **_Wijerathna, Y.M.A.M._** 2015. Application of Biotechnology in Coconut (Cocos nucifera L.): Sri Lanka. Plant Tissue Cult. & Biotech. 25(1): 103‐116. doi: https://doi.org/10.3329/ptcb.v25i1.24130
-- **_Wijerathna, Y.M.A.M._**, Perera, A.N.K.,Hamamah,I.B. and Hoang Long. 2015. Application of PCR and MAS: - Potential Use for Assessment of Genetic Diversity of Rice Germplasm in Breeding Programs in Developing Countries. Pertanika J. Trop. Agric. Sci. 38 (2): 161 – 174.
-- **_Wijerathna, Y.M.A.M._**, Kottearachchi, N.S.,Gimhani, D.R. and Sirisena, D.N. 2014. Exploration of Relationship between Fragrant Gene and Growth Performances of Fragrant Rice (Oryza Sativa L.) Seedlings under Salinity Stress. Journal of Experimental Biology and Agricultural Sciences. 2 (1):7-12.
-- **_Wijerathna, Y.M.A.M._** 2012. Advances of Basic Molecular Biology Techniques: Potential to Apply in Plant - Viroid Detection in Sri Lanka. eSci J. Plant Pathol. 01: 88 – 93.
+- **_Wijerathna, Y.M.A.M._**, Perera, A.N.K.,Hamamah,I.B. and Hoang Long. 2015. Application of PCR and MAS: - Potential Use for Assessment of Genetic Diversity of Rice Germplasm in Breeding Programs in Developing Countries. Pertanika J. Trop. Agric. Sci. 38 (2): 161 – 174. [JTAS-0613-2014](http://www.pertanika.upm.edu.my/resources/files/Pertanika%20PAPERS/JTAS%20Vol.%2038%20(2)%20May.%202015/01%20Page%20161-174%20(JTAS%200613-2014).pdf)
+- **_Wijerathna, Y.M.A.M._**, Kottearachchi, N.S.,Gimhani, D.R. and Sirisena, D.N. 2014. Exploration of Relationship between Fragrant Gene and Growth Performances of Fragrant Rice (Oryza Sativa L.) Seedlings under Salinity Stress. Journal of Experimental Biology and Agricultural Sciences. 2 (1):7-12.[Corpus ID: 81504175](http://www.jebas.org/wp-content/uploads/2014/09/Kottearachchi-et-al-JEBAS.pdf)
+- **_Wijerathna, Y.M.A.M._** 2012. Advances of Basic Molecular Biology Techniques: Potential to Apply in Plant - Viroid Detection in Sri Lanka. eSci J. Plant Pathol. 01: 88 – 93.[doi: 10.33687/phytopath.001.01.0020](https://esciencepress.net/journals/index.php/phytopath/article/view/20/19)
 - **_Wijerathna, Y.M.A.M._**, Kottearachchi, and Attanayaka, D.P.S.T.G. 2012. Assessment of Inter and Intra Cultivar Genetic and Phenotypic Variation in Grain Quality Characteristics of Sri Lankan Traditional Aromatic Rice (Oryza Sativa L.). Tropical Agriculturist. 160: 123 - 133.
-- **_Wijerathna, Y.M.A.M._** 2012. Application of Biotechnology in Intra Cellular Pathogen Diagnostic of Coconut - (Cocos nucifera L.) in Sri Lanka. Report on In-plant Training Programme. Wayamba University of Sri Lanka.
+
+**Theses and Reports**
+
+- **_Wijerathna, Y.M.A.M._** 2020. Unravelling the Underlying Components of Autophagy-mediated Photomorphogenesis of Arabidopsis thaliana. (Ph.D. dissertation, The University of Western Australia). https://doi.org/10.26182/2hpj-7605
+- **_Wijerathna, Y.M.A.M._** 2016. Analysis of Constitutively Active Pyrabactin Resistance1/Pyr1-like (pyl) Receptors in Early Development of Arabidopsis thaliana (M.Sc. dissertation, The Hebrew University of Jerusalem). https://www.nli.org.il/en/dissertations/NNL_ALEPH003951886/NLI
+- **_Wijerathna, Y.M.A.M._** 2012. Application of Biotechnology in Intra Cellular Pathogen Diagnostic of Coconut - (Cocos nucifera L.) in Sri Lanka. Report on In-plant Training Programme. The Wayamba University of Sri Lanka.
 
 **Conference Papers**
 
@@ -35,8 +41,10 @@ title: "Selected Publications"
 - **_Wijerathna-Yapa, A._**, Mosquna, A. 2015. Screening an Arabidopsis cDNA Library for Interactor Proteins of Cyclase. The 2nd Pears Foundation Alumni Symposium in Plant Sciences. The Robert H. Smith Faculty of Agriculture, Food & Environment in Rehovot, Israel, from September 7th - 9th 2015.
 - **_Wijerathna, Y.M.A.M._**, Kottearachchi, N.S., Gimhani, D.R. and Sirisena, D.N. 2011. Sri Lankan Fragrant Rice (Oryza Sativa L.) Varieties are Associated with Decreased Salt Tolerance. In: Proceedings of 11th - Agricultural Research Symposium, 20th -21st September 2011, Wayamba University of Sri Lanka, 51-55.
 
-**Magazine Article Publications**
+**Magazine Articles**
 
+- **_Akila Wijerathna._** Big Challenges Small Farms. LMD. June 2022. 142.
+- **_Akila Wijerathna._** Going Green: The smart way. LMD. May 2022. 124.
 - **_Akila Wijerathna._** Gains from the Smart Farming. LMD. April 2022. 114.
 - **_Akila Wijerathna._** Biotechnology's Golden Era. LMD. March 2022. 183.
 - **_Akila Wijerathna._** Piggybacking on Agriculture. LMD. February 2022. 137.
