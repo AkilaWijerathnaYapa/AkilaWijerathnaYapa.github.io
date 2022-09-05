@@ -12,7 +12,8 @@ title: "Selected Publications"
 
 **Peer-reviewed Scientific Journal Articles**
 
-- Li, L., Lee, C. P., Ding, X., Qin, Y., **_Wijerathna-Yapa, A._**, Broda, M., Otegui, M. S., Ganguly, D.R., Pogson, B.J., and Millar. H. 2021. Defects in autophagy lead to selective in vivo changes in turnover of cytosolic and organelle proteins in roots and shoots of Arabidopsis. The Plant Cell, koac185, https://doi.org/10.1093/plcell/koac185
+- **_Wijerathna-Yapa A._**, Ramtekey, V., Ranawaka, B., Basnet, B.R. 2022. Applications of In Vitro Tissue Culture Technologies in Breeding and Genetic Improvement of Wheat. Plants. 11(17):2273. https://doi.org/10.3390/plants11172273
+- Li, L., Lee, C. P., Ding, X., Qin, Y., **_Wijerathna-Yapa, A._**, Broda, M., Otegui, M. S., Ganguly, D.R., Pogson, B.J., and Millar. H. 2022. Defects in autophagy lead to selective in vivo changes in turnover of cytosolic and organelle proteins in roots and shoots of Arabidopsis. The Plant Cell, koac185, https://doi.org/10.1093/plcell/koac185
 - Li, L., Duncan, O., Ganguly, D.R., Lee, C.P., Crisp, P., **_Wijerathna-Yapa, A._**, Pogson, B.J., Salih, K., - Trosch, J., Millar, A.H., and Pogson, B.J. 2022. Metabolic enzymes degraded under high light stress - maintain their proteostasis by coupled transcriptional regulation in Arabidopsis. Proceedings of the National Academy of Sciences 119(20) e2121362119.doi: https://doi.org/10.1073/pnas.2121362119
 - **_Wijerathna-Yapa, A._**, Signorelli, S., Fenske, R., Ganguly, D.R., Stroeher, F., Li,L., Pogson, B.J., Duncan, O., and Millar. H. 2021 Autophagy mutants show delayed chloroplast development during de-etiolation in carbon limiting conditions. The Plant Journal. doi: https://doi.org/10.1111/tpj.15452
 - **_Wijerathna-Yapa, A._**, Stroeher, E., Fenske,R., Li, L., Duncan, O., and Millar, H. 2020. Proteomics for Autophagy Receptor and Cargo Identification in Plants. J. Proteome Res. American Chemical Society. doi: https://doi.org/10.1021/acs.jproteome.0c00609
@@ -44,6 +45,8 @@ title: "Selected Publications"
 
 **Magazine Articles**
 
+- **_Akila Wijerathna._** Farming without farmland —the value of CEA. LMD. September 2022. 148.
+- **_Akila Wijerathna._** Flowering of a Green Idea — Floriculture sector. LMD. August 2022. 147.
 - **_Akila Wijerathna._** Farming and Supply Chains. LMD. July 2022. 178.
 - **_Akila Wijerathna._** Big Challenges Small Farms. LMD. June 2022. 142.
 - **_Akila Wijerathna._** Going Green: The smart way. LMD. May 2022. 124.

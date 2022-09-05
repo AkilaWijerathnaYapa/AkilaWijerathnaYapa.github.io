@@ -1,0 +1,33 @@
+---
+title: "DNA Extraction Protocols"
+---
+
+### Rice DNA Extraction
+
+**DNA extraction buffer**
+
+- KCL 7.45 g
+- 1 M tris-HCL pH 8.0 10.0 mL
+- 0.5M EDTA 2mL
+- Up to 100 mL distilled water
+
+**Steps**
+
+1.	Use 3 cm tender leaf piece (two-three weeks old leaves from germinated seedlings)
+2.	Grind leaf piece with 300 μL of DNA extraction buffer in a micro-centrifuge tube)
+3.	Incubate at 70 °C for 20 minutes.
+4.	Centrifuge the tube at 15000 rpm for 15 minutes.
+5.	Add 100μ1 of isopropanol into a new tube.
+6.	Then transfer the supernatant into the tube containing isopropanol and mix gently.
+7.	Keep the tube under 4°C for 15-30 minutes.
+8.	Centrifuge the tube at 1500 rpm for 15 min at 4°C.
+9.	Remove the supernatant. At this stage, DNA is precipitated.
+10.	Wash DNA pellet with 150μ1 of 70%, ice cold ethanol by centrifuging for 10 minutes at 15000 rpm and at 4°C.
+11.	Remove the supernatant and air dry in the dark for 2 hours
+12.	Dissolve in 300 μl of 1/10th TE buffer for 1 hour or overnight at 4°C.
+13.	Store DNA at 20°C (use 5 μl for 15 μI volume of PCR mixture)
+
+Tender leaves of rice plants at the vegetative phase were used to extract gDNA using previously reported methods. About two to three small leaves were cut into small pieces and inserted into 1.5 mL Eppendorf tube. The leaf pieces were homogenized using a micropipette tip with 300 μL of DNA extraction buffer (1M KCl, 1M Tris-HCl, pH 8.0, 0.5 M EDTA). Capped Eppendorf tube was incubated at 70 °C for 20 minutes. Extracts were centrifuged at 1500 rpm for 15 minutes at room temperature. The supernatant was transferred into a new Eppendorf tube, and 100 μL of ice-cold isopropanol was added to precipitate the DNA. After mixing gently, tubes were kept at 4 °C for overnight and centrifuged at 1500 rmp 4 °C for 15 minutes. After removing the supernatant, DNA pellets were washed with 150 μL of 70% ice-cold ethanol by centrifuging at 1500 rpm at 4 °C for 10 minutes. The supernatant was removed, and pellets were air dried in the dark for 2 hours. The pellets were dissolved in 150 μL of 1/10th TE buffer (10 mM Tris, 1 mM EDTA).
+
+### References
+The International Rice Genome Sequencing Project (IRGSR; http:rgp.dana.affrc.go.jp/rgp/protocols/QTL.pdf). Accessed on 07 Aug 2010.
