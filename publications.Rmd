@@ -12,7 +12,9 @@ title: "Selected Publications"
 
 **Peer-reviewed Scientific Journal Articles**
 
-- **_Wijerathna-Yapa A._**, Ramtekey, V., Ranawaka, B., Basnet, B.R. 2022. Applications of In Vitro Tissue Culture Technologies in Breeding and Genetic Improvement of Wheat. Plants. 11(17):2273. https://doi.org/10.3390/plants11172273
+- **_Wijerathna-Yapa A._**, and Hiti-Bandaralage, J. 2023. Tissue Culture—A Sustainable Approach to Explore Plant Stresses. Life, 13(3), 780. https://doi.org/10.3390/life13030780
+- **_Wijerathna-Yapa A._**,and Pathirana, R. 2022. Sustainable Agro-Food Systems for Addressing Climate Change and Food Security. Agriculture, 12(10), 1554. https://doi.org/10.3390/agriculture12101554
+- **_Wijerathna-Yapa A._**, Ramtekey, V., Ranawaka, B., Basnet, B.R. 2022. Applications of In Vitro Tissue Culture Technologies in Breeding and Genetic Improvement of Wheat. Plants, 11(17):2273. https://doi.org/10.3390/plants11172273
 - Li, L., Lee, C. P., Ding, X., Qin, Y., **_Wijerathna-Yapa, A._**, Broda, M., Otegui, M. S., Ganguly, D.R., Pogson, B.J., and Millar. H. 2022. Defects in autophagy lead to selective in vivo changes in turnover of cytosolic and organelle proteins in roots and shoots of Arabidopsis. The Plant Cell, koac185, https://doi.org/10.1093/plcell/koac185
 - Li, L., Duncan, O., Ganguly, D.R., Lee, C.P., Crisp, P., **_Wijerathna-Yapa, A._**, Pogson, B.J., Salih, K., - Trosch, J., Millar, A.H., and Pogson, B.J. 2022. Metabolic enzymes degraded under high light stress - maintain their proteostasis by coupled transcriptional regulation in Arabidopsis. Proceedings of the National Academy of Sciences 119(20) e2121362119.doi: https://doi.org/10.1073/pnas.2121362119
 - **_Wijerathna-Yapa, A._**, Signorelli, S., Fenske, R., Ganguly, D.R., Stroeher, F., Li,L., Pogson, B.J., Duncan, O., and Millar. H. 2021 Autophagy mutants show delayed chloroplast development during de-etiolation in carbon limiting conditions. The Plant Journal. doi: https://doi.org/10.1111/tpj.15452
@@ -45,6 +47,13 @@ title: "Selected Publications"
 
 **Magazine Articles**
 
+- **_Akila Wijerathna._** Crops Prop Food Security. LMD. April 2023. 140.
+- **_Akila Wijerathna._** Smallholders' major roles. LMD. March 2023. 184.
+- **_Akila Wijerathna._** Wanted: Agronomy Measures. February 2023. 143.
+- **_Akila Wijerathna._** Risk of Worldwide Hunger. LMD. January 2023. 131
+- **_Akila Wijerathna._** Farming needs reimagining. LMD. December 2022. 141.
+- **_Akila Wijerathna._** Climate and Agriculture. LMD. November 2022. 138.
+- **_Akila Wijerathna._** Zero Hunger — The End Goal. LMD. October 2022. 135.
 - **_Akila Wijerathna._** Farming without farmland —the value of CEA. LMD. September 2022. 148.
 - **_Akila Wijerathna._** Flowering of a Green Idea — Floriculture sector. LMD. August 2022. 147.
 - **_Akila Wijerathna._** Farming and Supply Chains. LMD. July 2022. 178.

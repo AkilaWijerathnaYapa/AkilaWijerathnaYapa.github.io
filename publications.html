@@ -13,7 +13,7 @@
 
 <title>Selected Publications</title>
 
-<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -142,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -175,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -184,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -332,134 +329,387 @@ $(document).ready(function () {
 <hr />
 <p><strong>Preprints</strong></p>
 <ul>
-<li>Li, L., Duncan, O., Ganguly, D.R., Lee, C.P., Crisp, P., <strong><em>Wijerathna-Yapa, A.</em></strong>, Pogson, B.J., Salih, K., - Trosch, J., Millar, A.H., and Pogson, B.J. 2021. Metabolic enzymes degraded under high light stress - maintain their proteostasis by coupled transcriptional regulation in Arabidopsis. bioRxiv.doi: <a href="https://doi.org/10.1101/2021.10.03.462903" class="uri">https://doi.org/10.1101/2021.10.03.462903</a></li>
-<li>Li, L., Lee, C. P., <strong><em>Wijerathna-Yapa, A.</em></strong>, Broda, M., Otegui, M. S., Ganguly, D.R., Pogson, B.J., and Millar. H. 2021. Defects in autophagy lead to selective in vivo changes in turnover of cytosolic and organelle proteins in roots and shoots of Arabidopsis. bioRxiv.doi: <a href="https://doi.org/10.1101/2021.04.29.441983" class="uri">https://doi.org/10.1101/2021.04.29.441983</a></li>
-<li><strong><em>Wijerathna-Yapa, A.</em></strong>, Signorelli, S., Fenske, R., Ganguly, D.R., Stroeher, F., Li,L., Pogson, B.J., Duncan, O., and Millar. H. 2021 Autophagy promotes photomorphogenesis during seedling development in Arabidopsis in carbon limiting conditions. bioRxiv.doi: <a href="https://doi.org/10.1101/2021.03.25.437007" class="uri">https://doi.org/10.1101/2021.03.25.437007</a></li>
+<li>Li, L., Duncan, O., Ganguly, D.R., Lee, C.P., Crisp, P.,
+<strong><em>Wijerathna-Yapa, A.</em></strong>, Pogson, B.J., Salih, K.,
+- Trosch, J., Millar, A.H., and Pogson, B.J. 2021. Metabolic enzymes
+degraded under high light stress - maintain their proteostasis by
+coupled transcriptional regulation in Arabidopsis. bioRxiv.doi: <a
+href="https://doi.org/10.1101/2021.10.03.462903"
+class="uri">https://doi.org/10.1101/2021.10.03.462903</a></li>
+<li>Li, L., Lee, C. P., <strong><em>Wijerathna-Yapa, A.</em></strong>,
+Broda, M., Otegui, M. S., Ganguly, D.R., Pogson, B.J., and Millar. H.
+2021. Defects in autophagy lead to selective in vivo changes in turnover
+of cytosolic and organelle proteins in roots and shoots of Arabidopsis.
+bioRxiv.doi: <a href="https://doi.org/10.1101/2021.04.29.441983"
+class="uri">https://doi.org/10.1101/2021.04.29.441983</a></li>
+<li><strong><em>Wijerathna-Yapa, A.</em></strong>, Signorelli, S.,
+Fenske, R., Ganguly, D.R., Stroeher, F., Li,L., Pogson, B.J., Duncan,
+O., and Millar. H. 2021 Autophagy promotes photomorphogenesis during
+seedling development in Arabidopsis in carbon limiting conditions.
+bioRxiv.doi: <a href="https://doi.org/10.1101/2021.03.25.437007"
+class="uri">https://doi.org/10.1101/2021.03.25.437007</a></li>
 </ul>
 <p><strong>Peer-reviewed Scientific Journal Articles</strong></p>
 <ul>
-<li><strong><em>Wijerathna-Yapa A.</em></strong>, Ramtekey, V., Ranawaka, B., Basnet, B.R. 2022. Applications of In Vitro Tissue Culture Technologies in Breeding and Genetic Improvement of Wheat. Plants. 11(17):2273. <a href="https://doi.org/10.3390/plants11172273" class="uri">https://doi.org/10.3390/plants11172273</a></li>
-<li>Li, L., Lee, C. P., Ding, X., Qin, Y., <strong><em>Wijerathna-Yapa, A.</em></strong>, Broda, M., Otegui, M. S., Ganguly, D.R., Pogson, B.J., and Millar. H. 2022. Defects in autophagy lead to selective in vivo changes in turnover of cytosolic and organelle proteins in roots and shoots of Arabidopsis. The Plant Cell, koac185, <a href="https://doi.org/10.1093/plcell/koac185" class="uri">https://doi.org/10.1093/plcell/koac185</a></li>
-<li>Li, L., Duncan, O., Ganguly, D.R., Lee, C.P., Crisp, P., <strong><em>Wijerathna-Yapa, A.</em></strong>, Pogson, B.J., Salih, K., - Trosch, J., Millar, A.H., and Pogson, B.J. 2022. Metabolic enzymes degraded under high light stress - maintain their proteostasis by coupled transcriptional regulation in Arabidopsis. Proceedings of the National Academy of Sciences 119(20) e2121362119.doi: <a href="https://doi.org/10.1073/pnas.2121362119" class="uri">https://doi.org/10.1073/pnas.2121362119</a></li>
-<li><strong><em>Wijerathna-Yapa, A.</em></strong>, Signorelli, S., Fenske, R., Ganguly, D.R., Stroeher, F., Li,L., Pogson, B.J., Duncan, O., and Millar. H. 2021 Autophagy mutants show delayed chloroplast development during de-etiolation in carbon limiting conditions. The Plant Journal. doi: <a href="https://doi.org/10.1111/tpj.15452" class="uri">https://doi.org/10.1111/tpj.15452</a></li>
-<li><strong><em>Wijerathna-Yapa, A.</em></strong>, Stroeher, E., Fenske,R., Li, L., Duncan, O., and Millar, H. 2020. Proteomics for Autophagy Receptor and Cargo Identification in Plants. J. Proteome Res. American Chemical Society. doi: <a href="https://doi.org/10.1021/acs.jproteome.0c00609" class="uri">https://doi.org/10.1021/acs.jproteome.0c00609</a></li>
-<li>Sun, Y., Harpazi, B., <strong><em>Wijerathna-Yapa, A.</em></strong>, Merilo, E., de Vries, J., Michaeli, D., Gal, M., Cuming, A., - Kollist, H. and Mosquna, A., 2019. A ligand-independent origin of abscisic acid perception. Proceedings of the National Academy of Science. National Academy of Sciences. 116 (49) 24892-24899.doi: <a href="https://doi.org/10.1073/pnas.1914480116" class="uri">https://doi.org/10.1073/pnas.1914480116</a></li>
-<li><strong><em>Wijerathna-Yapa, A.</em></strong> 2017. Effect on Biodrying and Rapid Drying of Food Wastes for Biochar Manufacturing. - Agri Res &amp; Tech 7 (5), 555722.<a href="https://juniperpublishers.com/artoaj/ARTOAJ.MS.ID.555722.php">doi:10.19080/ARTOAJ.2017.07.555722</a></li>
-<li>Kumarihami H.M.P.C., <strong><em>Wijerathna, Y.M.A.M.</em></strong>, Beneragama, C.K. 2017. Extending the postharvest life of cut - flowers with floral preservative: mini review. Proceedings of the National Symposium on Floriculture - Research, Department of National Botanic Gardens, Sri Lanka. 52-60.</li>
-<li><strong><em>Wijerathna-Yapa, A.</em></strong> 2017. Transgenic plants: resistance to abiotic and biotic stresses. JAEID, 111 (1): 245-275.doi: <a href="https://doi.org/10.12895/jaeid.20171.643" class="uri">https://doi.org/10.12895/jaeid.20171.643</a></li>
-<li><strong><em>Wijerathna, Y.M.A.M.</em></strong> and Kumarihami H.M.P.C. 2016. Effects of Different Hormonal Concentrations and - Culture Medium on Multiplication and Rooting of Stage II Banana (<em>Musa cavendishii</em>). Not Sci Biol, 8(1):69-72. doi: <a href="https://doi.org/10.15835/nsb819749" class="uri">https://doi.org/10.15835/nsb819749</a></li>
-<li><strong><em>Wijerathna, Y.M.A.M.</em></strong> 2015. Marker-Assisted Selection: Biotechnology Tool for Rice Molecular Breeding. Adv Crop Sci Tech 3: 187. <a href="doi:10.4172/2329-8863.1000187" class="uri">doi:10.4172/2329-8863.1000187</a>.</li>
-<li><strong><em>Wijerathna, Y.M.A.M.</em></strong> 2015. Application of Biotechnology in Coconut (Cocos nucifera L.): Sri Lanka. Plant Tissue Cult. &amp; Biotech. 25(1): 103‐116. doi: <a href="https://doi.org/10.3329/ptcb.v25i1.24130" class="uri">https://doi.org/10.3329/ptcb.v25i1.24130</a></li>
-<li><strong><em>Wijerathna, Y.M.A.M.</em></strong>, Perera, A.N.K.,Hamamah,I.B. and Hoang Long. 2015. Application of PCR and MAS: - Potential Use for Assessment of Genetic Diversity of Rice Germplasm in Breeding Programs in Developing Countries. Pertanika J. Trop. Agric. Sci. 38 (2): 161 – 174. <a href="http://www.pertanika.upm.edu.my/resources/files/Pertanika%20PAPERS/JTAS%20Vol.%2038%20(2)%20May.%202015/01%20Page%20161-174%20(JTAS%200613-2014).pdf">JTAS-0613-2014</a></li>
-<li><strong><em>Wijerathna, Y.M.A.M.</em></strong>, Kottearachchi, N.S.,Gimhani, D.R. and Sirisena, D.N. 2014. Exploration of Relationship between Fragrant Gene and Growth Performances of Fragrant Rice (Oryza Sativa L.) Seedlings under Salinity Stress. Journal of Experimental Biology and Agricultural Sciences. 2 (1):7-12.<a href="http://www.jebas.org/wp-content/uploads/2014/09/Kottearachchi-et-al-JEBAS.pdf">Corpus ID: 81504175</a></li>
-<li><strong><em>Wijerathna, Y.M.A.M.</em></strong> 2012. Advances of Basic Molecular Biology Techniques: Potential to Apply in Plant - Viroid Detection in Sri Lanka. eSci J. Plant Pathol. 01: 88 – 93.<a href="https://esciencepress.net/journals/index.php/phytopath/article/view/20/19">doi: 10.33687/phytopath.001.01.0020</a></li>
-<li><strong><em>Wijerathna, Y.M.A.M.</em></strong>, Kottearachchi, and Attanayaka, D.P.S.T.G. 2012. Assessment of Inter and Intra Cultivar Genetic and Phenotypic Variation in Grain Quality Characteristics of Sri Lankan Traditional Aromatic Rice (Oryza Sativa L.). Tropical Agriculturist. 160: 123 - 133.</li>
+<li><strong><em>Wijerathna-Yapa A.</em></strong>, and Hiti-Bandaralage,
+J. 2023. Tissue Culture—A Sustainable Approach to Explore Plant
+Stresses. Life, 13(3), 780. <a
+href="https://doi.org/10.3390/life13030780"
+class="uri">https://doi.org/10.3390/life13030780</a></li>
+<li><strong><em>Wijerathna-Yapa A.</em></strong>,and Pathirana, R. 2022.
+Sustainable Agro-Food Systems for Addressing Climate Change and Food
+Security. Agriculture, 12(10), 1554. <a
+href="https://doi.org/10.3390/agriculture12101554"
+class="uri">https://doi.org/10.3390/agriculture12101554</a></li>
+<li><strong><em>Wijerathna-Yapa A.</em></strong>, Ramtekey, V.,
+Ranawaka, B., Basnet, B.R. 2022. Applications of In Vitro Tissue Culture
+Technologies in Breeding and Genetic Improvement of Wheat. Plants,
+11(17):2273. <a href="https://doi.org/10.3390/plants11172273"
+class="uri">https://doi.org/10.3390/plants11172273</a></li>
+<li>Li, L., Lee, C. P., Ding, X., Qin, Y., <strong><em>Wijerathna-Yapa,
+A.</em></strong>, Broda, M., Otegui, M. S., Ganguly, D.R., Pogson, B.J.,
+and Millar. H. 2022. Defects in autophagy lead to selective in vivo
+changes in turnover of cytosolic and organelle proteins in roots and
+shoots of Arabidopsis. The Plant Cell, koac185, <a
+href="https://doi.org/10.1093/plcell/koac185"
+class="uri">https://doi.org/10.1093/plcell/koac185</a></li>
+<li>Li, L., Duncan, O., Ganguly, D.R., Lee, C.P., Crisp, P.,
+<strong><em>Wijerathna-Yapa, A.</em></strong>, Pogson, B.J., Salih, K.,
+- Trosch, J., Millar, A.H., and Pogson, B.J. 2022. Metabolic enzymes
+degraded under high light stress - maintain their proteostasis by
+coupled transcriptional regulation in Arabidopsis. Proceedings of the
+National Academy of Sciences 119(20) e2121362119.doi: <a
+href="https://doi.org/10.1073/pnas.2121362119"
+class="uri">https://doi.org/10.1073/pnas.2121362119</a></li>
+<li><strong><em>Wijerathna-Yapa, A.</em></strong>, Signorelli, S.,
+Fenske, R., Ganguly, D.R., Stroeher, F., Li,L., Pogson, B.J., Duncan,
+O., and Millar. H. 2021 Autophagy mutants show delayed chloroplast
+development during de-etiolation in carbon limiting conditions. The
+Plant Journal. doi: <a href="https://doi.org/10.1111/tpj.15452"
+class="uri">https://doi.org/10.1111/tpj.15452</a></li>
+<li><strong><em>Wijerathna-Yapa, A.</em></strong>, Stroeher, E.,
+Fenske,R., Li, L., Duncan, O., and Millar, H. 2020. Proteomics for
+Autophagy Receptor and Cargo Identification in Plants. J. Proteome Res.
+American Chemical Society. doi: <a
+href="https://doi.org/10.1021/acs.jproteome.0c00609"
+class="uri">https://doi.org/10.1021/acs.jproteome.0c00609</a></li>
+<li>Sun, Y., Harpazi, B., <strong><em>Wijerathna-Yapa, A.</em></strong>,
+Merilo, E., de Vries, J., Michaeli, D., Gal, M., Cuming, A., - Kollist,
+H. and Mosquna, A., 2019. A ligand-independent origin of abscisic acid
+perception. Proceedings of the National Academy of Science. National
+Academy of Sciences. 116 (49) 24892-24899.doi: <a
+href="https://doi.org/10.1073/pnas.1914480116"
+class="uri">https://doi.org/10.1073/pnas.1914480116</a></li>
+<li><strong><em>Wijerathna-Yapa, A.</em></strong> 2017. Effect on
+Biodrying and Rapid Drying of Food Wastes for Biochar Manufacturing. -
+Agri Res &amp; Tech 7 (5), 555722.<a
+href="https://juniperpublishers.com/artoaj/ARTOAJ.MS.ID.555722.php">doi:10.19080/ARTOAJ.2017.07.555722</a></li>
+<li>Kumarihami H.M.P.C., <strong><em>Wijerathna, Y.M.A.M.</em></strong>,
+Beneragama, C.K. 2017. Extending the postharvest life of cut - flowers
+with floral preservative: mini review. Proceedings of the National
+Symposium on Floriculture - Research, Department of National Botanic
+Gardens, Sri Lanka. 52-60.</li>
+<li><strong><em>Wijerathna-Yapa, A.</em></strong> 2017. Transgenic
+plants: resistance to abiotic and biotic stresses. JAEID, 111 (1):
+245-275.doi: <a href="https://doi.org/10.12895/jaeid.20171.643"
+class="uri">https://doi.org/10.12895/jaeid.20171.643</a></li>
+<li><strong><em>Wijerathna, Y.M.A.M.</em></strong> and Kumarihami
+H.M.P.C. 2016. Effects of Different Hormonal Concentrations and -
+Culture Medium on Multiplication and Rooting of Stage II Banana
+(<em>Musa cavendishii</em>). Not Sci Biol, 8(1):69-72. doi: <a
+href="https://doi.org/10.15835/nsb819749"
+class="uri">https://doi.org/10.15835/nsb819749</a></li>
+<li><strong><em>Wijerathna, Y.M.A.M.</em></strong> 2015. Marker-Assisted
+Selection: Biotechnology Tool for Rice Molecular Breeding. Adv Crop Sci
+Tech 3: 187. <a href="doi:10.4172/2329-8863.1000187"
+class="uri">doi:10.4172/2329-8863.1000187</a>.</li>
+<li><strong><em>Wijerathna, Y.M.A.M.</em></strong> 2015. Application of
+Biotechnology in Coconut (Cocos nucifera L.): Sri Lanka. Plant Tissue
+Cult. &amp; Biotech. 25(1): 103‐116. doi: <a
+href="https://doi.org/10.3329/ptcb.v25i1.24130"
+class="uri">https://doi.org/10.3329/ptcb.v25i1.24130</a></li>
+<li><strong><em>Wijerathna, Y.M.A.M.</em></strong>, Perera,
+A.N.K.,Hamamah,I.B. and Hoang Long. 2015. Application of PCR and MAS: -
+Potential Use for Assessment of Genetic Diversity of Rice Germplasm in
+Breeding Programs in Developing Countries. Pertanika J. Trop. Agric.
+Sci. 38 (2): 161 – 174. <a
+href="http://www.pertanika.upm.edu.my/resources/files/Pertanika%20PAPERS/JTAS%20Vol.%2038%20(2)%20May.%202015/01%20Page%20161-174%20(JTAS%200613-2014).pdf">JTAS-0613-2014</a></li>
+<li><strong><em>Wijerathna, Y.M.A.M.</em></strong>, Kottearachchi,
+N.S.,Gimhani, D.R. and Sirisena, D.N. 2014. Exploration of Relationship
+between Fragrant Gene and Growth Performances of Fragrant Rice (Oryza
+Sativa L.) Seedlings under Salinity Stress. Journal of Experimental
+Biology and Agricultural Sciences. 2 (1):7-12.<a
+href="http://www.jebas.org/wp-content/uploads/2014/09/Kottearachchi-et-al-JEBAS.pdf">Corpus
+ID: 81504175</a></li>
+<li><strong><em>Wijerathna, Y.M.A.M.</em></strong> 2012. Advances of
+Basic Molecular Biology Techniques: Potential to Apply in Plant - Viroid
+Detection in Sri Lanka. eSci J. Plant Pathol. 01: 88 – 93.<a
+href="https://esciencepress.net/journals/index.php/phytopath/article/view/20/19">doi:
+10.33687/phytopath.001.01.0020</a></li>
+<li><strong><em>Wijerathna, Y.M.A.M.</em></strong>, Kottearachchi, and
+Attanayaka, D.P.S.T.G. 2012. Assessment of Inter and Intra Cultivar
+Genetic and Phenotypic Variation in Grain Quality Characteristics of Sri
+Lankan Traditional Aromatic Rice (Oryza Sativa L.). Tropical
+Agriculturist. 160: 123 - 133.</li>
 </ul>
 <p><strong>Theses and Reports</strong></p>
 <ul>
-<li><strong><em>Wijerathna, Y.M.A.M.</em></strong> 2020. Unravelling the Underlying Components of Autophagy-mediated Photomorphogenesis of Arabidopsis thaliana. (Ph.D. dissertation, The University of Western Australia). <a href="https://doi.org/10.26182/2hpj-7605" class="uri">https://doi.org/10.26182/2hpj-7605</a></li>
-<li><strong><em>Wijerathna, Y.M.A.M.</em></strong> 2016. Analysis of Constitutively Active Pyrabactin Resistance1/Pyr1-like (pyl) Receptors in Early Development of Arabidopsis thaliana (M.Sc. dissertation, The Hebrew University of Jerusalem). <a href="https://www.nli.org.il/en/dissertations/NNL_ALEPH003951886/NLI" class="uri">https://www.nli.org.il/en/dissertations/NNL_ALEPH003951886/NLI</a></li>
-<li><strong><em>Wijerathna, Y.M.A.M.</em></strong> 2012. Application of Biotechnology in Intra Cellular Pathogen Diagnostic of Coconut - (Cocos nucifera L.) in Sri Lanka. Report on In-plant Training Programme. The Wayamba University of Sri Lanka.</li>
+<li><strong><em>Wijerathna, Y.M.A.M.</em></strong> 2020. Unravelling the
+Underlying Components of Autophagy-mediated Photomorphogenesis of
+Arabidopsis thaliana. (Ph.D. dissertation, The University of Western
+Australia). <a href="https://doi.org/10.26182/2hpj-7605"
+class="uri">https://doi.org/10.26182/2hpj-7605</a></li>
+<li><strong><em>Wijerathna, Y.M.A.M.</em></strong> 2016. Analysis of
+Constitutively Active Pyrabactin Resistance1/Pyr1-like (pyl) Receptors
+in Early Development of Arabidopsis thaliana (M.Sc. dissertation, The
+Hebrew University of Jerusalem). <a
+href="https://www.nli.org.il/en/dissertations/NNL_ALEPH003951886/NLI"
+class="uri">https://www.nli.org.il/en/dissertations/NNL_ALEPH003951886/NLI</a></li>
+<li><strong><em>Wijerathna, Y.M.A.M.</em></strong> 2012. Application of
+Biotechnology in Intra Cellular Pathogen Diagnostic of Coconut - (Cocos
+nucifera L.) in Sri Lanka. Report on In-plant Training Programme. The
+Wayamba University of Sri Lanka.</li>
 </ul>
 <p><strong>Conference Papers</strong></p>
 <ul>
-<li><strong><em>Wijerathna-Yapa, A.</em></strong>, Fenske, R., Li, L., Petereit, P., Cao, H., Stroher, E., Duncan, O,Millar, A.H. 2019. Application of Proteomics Techniques to Organelle Abundance Profiling of Arabidopsis thaliana Autophagy Mutants. Abstract presented at the ARC CoE in Plant Energy Biology Annual Forum 2019. The Alpine Hotel Thredbo Australia. June 4th - 6th 2019.</li>
-<li>Duncan, O., <strong><em>Wijerathna-Yapa, A.</em></strong>, Millar, A.H. Protein synthesis and degradation in the night and day: how cycling abundances are established and maintained. 2019. Abstract presented at the ARC CoE in Plant Energy - Biology Annual Forum 2019. The Alpine Hotel Thredbo, Australia. June 4th - 6th 2019.</li>
-<li><strong><em>Wijerathna-Yapa, A.</em></strong>, Fenske, R., Li, L., Millar, A.H. 2018. Targeted Proteomics for Organelle Abundance Profiling of Arabidopsis thaliana Autophagy Mutants. Abstract presented at the ARC CoE in Plant Energy Biology Annual Forum 2018. Novotel Swan Valley Vines Resort, Australia. September 11th - 13th 2018.</li>
-<li><strong><em>Wijerathna-Yapa, A.</em></strong>, Mosquna, A. 2015. Screening an Arabidopsis cDNA Library for Interactor Proteins of Cyclase. The 2nd Pears Foundation Alumni Symposium in Plant Sciences. The Robert H. Smith Faculty of Agriculture, Food &amp; Environment in Rehovot, Israel, from September 7th - 9th 2015.</li>
-<li><strong><em>Wijerathna, Y.M.A.M.</em></strong>, Kottearachchi, N.S., Gimhani, D.R. and Sirisena, D.N. 2011. Sri Lankan Fragrant Rice (Oryza Sativa L.) Varieties are Associated with Decreased Salt Tolerance. In: Proceedings of 11th - Agricultural Research Symposium, 20th -21st September 2011, Wayamba University of Sri Lanka, 51-55.</li>
+<li><strong><em>Wijerathna-Yapa, A.</em></strong>, Fenske, R., Li, L.,
+Petereit, P., Cao, H., Stroher, E., Duncan, O,Millar, A.H. 2019.
+Application of Proteomics Techniques to Organelle Abundance Profiling of
+Arabidopsis thaliana Autophagy Mutants. Abstract presented at the ARC
+CoE in Plant Energy Biology Annual Forum 2019. The Alpine Hotel Thredbo
+Australia. June 4th - 6th 2019.</li>
+<li>Duncan, O., <strong><em>Wijerathna-Yapa, A.</em></strong>, Millar,
+A.H. Protein synthesis and degradation in the night and day: how cycling
+abundances are established and maintained. 2019. Abstract presented at
+the ARC CoE in Plant Energy - Biology Annual Forum 2019. The Alpine
+Hotel Thredbo, Australia. June 4th - 6th 2019.</li>
+<li><strong><em>Wijerathna-Yapa, A.</em></strong>, Fenske, R., Li, L.,
+Millar, A.H. 2018. Targeted Proteomics for Organelle Abundance Profiling
+of Arabidopsis thaliana Autophagy Mutants. Abstract presented at the ARC
+CoE in Plant Energy Biology Annual Forum 2018. Novotel Swan Valley Vines
+Resort, Australia. September 11th - 13th 2018.</li>
+<li><strong><em>Wijerathna-Yapa, A.</em></strong>, Mosquna, A. 2015.
+Screening an Arabidopsis cDNA Library for Interactor Proteins of
+Cyclase. The 2nd Pears Foundation Alumni Symposium in Plant Sciences.
+The Robert H. Smith Faculty of Agriculture, Food &amp; Environment in
+Rehovot, Israel, from September 7th - 9th 2015.</li>
+<li><strong><em>Wijerathna, Y.M.A.M.</em></strong>, Kottearachchi, N.S.,
+Gimhani, D.R. and Sirisena, D.N. 2011. Sri Lankan Fragrant Rice (Oryza
+Sativa L.) Varieties are Associated with Decreased Salt Tolerance. In:
+Proceedings of 11th - Agricultural Research Symposium, 20th -21st
+September 2011, Wayamba University of Sri Lanka, 51-55.</li>
 </ul>
 <p><strong>Magazine Articles</strong></p>
 <ul>
-<li><strong><em>Akila Wijerathna.</em></strong> Farming without farmland —the value of CEA. LMD. September 2022. 148.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Flowering of a Green Idea — Floriculture sector. LMD. August 2022. 147.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Farming and Supply Chains. LMD. July 2022. 178.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Big Challenges Small Farms. LMD. June 2022. 142.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Going Green: The smart way. LMD. May 2022. 124.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Gains from the Smart Farming. LMD. April 2022. 114.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Biotechnology’s Golden Era. LMD. March 2022. 183.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Piggybacking on Agriculture. LMD. February 2022. 137.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Supply Chain Disruptions as a result of COVID-19. LMD. January 2022. 144.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Post-COVID food security. LMD. December 2021. 184.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Pest control in Agri-Food. LMD. November 2021. 115.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> AI and Climate Emergencies. LMD. October 2021. 69.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Bio-based farm economy. LMD. September 2021. 132.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Bridging the Gender Gap — emphasises the need to empower female smallholder farmers. LMD. August 2021. 138.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Climate Crisis and Farming. LMD. July 2021. 174.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Indoor Farming Takes Root. LMD. June 2021. 126.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Green Energy for Crops. LMD. May 2021. 144.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Mitigating farming risks. LMD. April 2021. 137.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Protecting the Planet - reducing food waste will curtail greenhouse gases. LMD. March 2021. 155.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> The Urban-Rural Divide — How biotechnology can develop rural economy. LMD. - February 2021. 117.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Innovating for Security - Agriculture. LMD. January 2021. 150.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Next Generation Production. LMD. December 2020. 132.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Combating land degradation. LMD. November 2020. 129.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Resourceful conservation in the agriculture sector. LMD. October 2020. 122.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> The Breadbasket Failures: The food system woes unearthed by the pandemic. LMD. - September 2020. 164.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Agriculture Sector: The pursuit of equality. LMD. August 2020. 144.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Agriculture Sector: Ecological Intensification. LMD. July 2020. 128.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> The Farming Transformation: economic benefits of agricultural growth. LMD. - June 2020. 116.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Next Generation Farming: impact of new technologies on sustainability. LMD. - May 2020. 116.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Smallholder development: impact of urbanization on smallholder farmers. LMD. - April 2020. 150.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Climate Change Proofing. LMD. March 2020. 160.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Organic Farming: dispels umpteen misconceptions associated with agriculture. LMD. February 2020. 142.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Sustainable Collaboration to develop a sustainable global food system. LMD. - January 2020. 190.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> The Smallholder Challenge. LMD. December 2019. 174.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Agro’s Digital Revolution. LMD. November 2019. 176.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Investing in Development; notes how agricultural growth boosts the wider economy. LMD. October 2019. 169.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Sustainable Transformation: highlights a prerequisite for innovative farming systems. - LMD. September 2019. 145.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Production To Go Bananas? unpeels the economic benefits of commercializing a fruit!. LMD. August 2019. 136.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> The Gender Gap in Farming. LMD. July 2019. 193.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Develop Genetic Diversity: ramification of adapting crop heterogeneity. LMD. - June 2019. 167.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Genetically Engineered DNA. LMD. May 2019. 171.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Growing Community Gardens. LMD. April 2019. 139.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> The Food Security Crunch. LMD. March 2019. 155.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> The Rise of Smart Foods. LMD. February 2019. 168.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Rescue Act for Food Waste. LMD. January 2019. 160.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Crop Protection Solutions. LMD. December 2018. 168.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Untapped Biotech Potential. LMD. November 2018. 197.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Holistic Farming Practice. LMD. October 2018. 181.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> The Maze of Biotechnology. LMD. September 2018. 181.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> The Trail of Breadcrumbs: Post Harvest Losses. LMD. August 2018. 175.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Organic Farming: Time to defy the convention. LMD. July 2018. 229.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Digital Farming: Agro made simple by ‘E’. LMD. June 2018. 172.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> The Science of Sharing. LMD. May 2018. 213.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Saving the Plants from Stress. LMD. April 2018. 166.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> The Future of Agriculture. LMD. March 2018. 202.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Waste from Green Field. LMD. February 2018. 172.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Family Farming: Breaking the Cycle. LMD. January 2018. 178.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Floriculture Sector: The Flowering State. LMD. December 2017:198.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Agriculture Revival: Organic Farming. LMD. November 2017:235.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> The Fruits of Agriculture. LMD. October 2017:209.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Food Safety: Critical Conscience. LMD. August 2017:182.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Farm Biodiversity: Shared Responsibility. LMD. July 2017:165.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Urban Ecosystems: The Trees of City Life. LMD. June 2017:206.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Food Safety: Better Safe Than Sorry. LMD. May 2017:174.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Farmers’ Markets. LMD. April 2017:194.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Small Holder Agriculture: Family Farming. LMD. March 2017: 182.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Women in Farming. LMD. February 2017: 206.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Start-up Farming. LMD. January 2017: 190.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Future-Ready Farming Techniques. LMD. December 2016: 222.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> The Seed of Organic Farming. LMD. November 2016: 220.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Urban Agriculture: Food Security in the City. LMD. Oct 2016: 220.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Smart Agriculture: Inclusive farming. LMD. Sep 2016: 203.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Empowering Farmers: examines the nexus between agriculture infrastructure and rural - development. LMD. August 2016: 210.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Farming for Tomorrow. LMD. July 2016: 236.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Crop Enabler: Genetic Engineering. LMD. June 2016: 222.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Biotech Ethics: Roadblocks to Research. LMD. May 2016: 187.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Farming Boost From Biotech. LMD. April 2016: 182.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Biodynamic Agriculture: Agriculture Take a Bow! LMD. March 2016: 212.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Harnessing Biotech for Livestock. LMD. February 2016: 195.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> The Bio-Economy. The All-New Investment Opportunity: Sees Scope in a Biotechnology-Led - Future. LMD. January 2016: 185.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Debunking the myth: unravels the truth behind GMO. LMD. December 2015: 233.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Sowing the seeds of productivity: weighs the ideal mix of farm seed inputs. LMD. November 2015: 174.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Industrial Biotechnology: BIOTECH for Business. LMD. October 2015: 166.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> The Ethics of Food Supply: weighs the merits of genetic crop manipulation. LMD. September 2015: 193.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Pest Control: Protecting the Planet Earth. LMD. August 2015: 182.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Tree Conservation: Blooming City. LMD. July 2015: 192.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Farm tourism: regenerating tourism. LMD. June 2015: 195.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> Nourishing Planet Earth: unearth development in rice biotechnology. LMD. May - 2015: 166.</li>
-<li><strong><em>Akila Wijerathna.</em></strong> In Search of Zero Waste: traces domestic waste management to townships. LMD. - March 2015: 169.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Crops Prop Food
+Security. LMD. April 2023. 140.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Smallholders’ major
+roles. LMD. March 2023. 184.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Wanted: Agronomy
+Measures. February 2023. 143.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Risk of Worldwide
+Hunger. LMD. January 2023. 131</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Farming needs
+reimagining. LMD. December 2022. 141.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Climate and Agriculture.
+LMD. November 2022. 138.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Zero Hunger — The End
+Goal. LMD. October 2022. 135.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Farming without farmland
+—the value of CEA. LMD. September 2022. 148.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Flowering of a Green
+Idea — Floriculture sector. LMD. August 2022. 147.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Farming and Supply
+Chains. LMD. July 2022. 178.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Big Challenges Small
+Farms. LMD. June 2022. 142.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Going Green: The smart
+way. LMD. May 2022. 124.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Gains from the Smart
+Farming. LMD. April 2022. 114.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Biotechnology’s Golden
+Era. LMD. March 2022. 183.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Piggybacking on
+Agriculture. LMD. February 2022. 137.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Supply Chain Disruptions
+as a result of COVID-19. LMD. January 2022. 144.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Post-COVID food
+security. LMD. December 2021. 184.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Pest control in
+Agri-Food. LMD. November 2021. 115.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> AI and Climate
+Emergencies. LMD. October 2021. 69.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Bio-based farm economy.
+LMD. September 2021. 132.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Bridging the Gender Gap
+— emphasises the need to empower female smallholder farmers. LMD. August
+2021. 138.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Climate Crisis and
+Farming. LMD. July 2021. 174.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Indoor Farming Takes
+Root. LMD. June 2021. 126.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Green Energy for Crops.
+LMD. May 2021. 144.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Mitigating farming
+risks. LMD. April 2021. 137.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Protecting the Planet -
+reducing food waste will curtail greenhouse gases. LMD. March 2021.
+155.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> The Urban-Rural Divide —
+How biotechnology can develop rural economy. LMD. - February 2021.
+117.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Innovating for Security
+- Agriculture. LMD. January 2021. 150.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Next Generation
+Production. LMD. December 2020. 132.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Combating land
+degradation. LMD. November 2020. 129.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Resourceful conservation
+in the agriculture sector. LMD. October 2020. 122.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> The Breadbasket
+Failures: The food system woes unearthed by the pandemic. LMD. -
+September 2020. 164.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Agriculture Sector: The
+pursuit of equality. LMD. August 2020. 144.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Agriculture Sector:
+Ecological Intensification. LMD. July 2020. 128.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> The Farming
+Transformation: economic benefits of agricultural growth. LMD. - June
+2020. 116.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Next Generation Farming:
+impact of new technologies on sustainability. LMD. - May 2020. 116.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Smallholder development:
+impact of urbanization on smallholder farmers. LMD. - April 2020.
+150.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Climate Change Proofing.
+LMD. March 2020. 160.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Organic Farming: dispels
+umpteen misconceptions associated with agriculture. LMD. February 2020.
+142.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Sustainable
+Collaboration to develop a sustainable global food system. LMD. -
+January 2020. 190.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> The Smallholder
+Challenge. LMD. December 2019. 174.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Agro’s Digital
+Revolution. LMD. November 2019. 176.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Investing in
+Development; notes how agricultural growth boosts the wider economy.
+LMD. October 2019. 169.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Sustainable
+Transformation: highlights a prerequisite for innovative farming
+systems. - LMD. September 2019. 145.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Production To Go
+Bananas? unpeels the economic benefits of commercializing a fruit!. LMD.
+August 2019. 136.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> The Gender Gap in
+Farming. LMD. July 2019. 193.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Develop Genetic
+Diversity: ramification of adapting crop heterogeneity. LMD. - June
+2019. 167.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Genetically Engineered
+DNA. LMD. May 2019. 171.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Growing Community
+Gardens. LMD. April 2019. 139.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> The Food Security
+Crunch. LMD. March 2019. 155.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> The Rise of Smart Foods.
+LMD. February 2019. 168.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Rescue Act for Food
+Waste. LMD. January 2019. 160.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Crop Protection
+Solutions. LMD. December 2018. 168.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Untapped Biotech
+Potential. LMD. November 2018. 197.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Holistic Farming
+Practice. LMD. October 2018. 181.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> The Maze of
+Biotechnology. LMD. September 2018. 181.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> The Trail of
+Breadcrumbs: Post Harvest Losses. LMD. August 2018. 175.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Organic Farming: Time to
+defy the convention. LMD. July 2018. 229.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Digital Farming: Agro
+made simple by ‘E’. LMD. June 2018. 172.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> The Science of Sharing.
+LMD. May 2018. 213.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Saving the Plants from
+Stress. LMD. April 2018. 166.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> The Future of
+Agriculture. LMD. March 2018. 202.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Waste from Green Field.
+LMD. February 2018. 172.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Family Farming: Breaking
+the Cycle. LMD. January 2018. 178.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Floriculture Sector: The
+Flowering State. LMD. December 2017:198.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Agriculture Revival:
+Organic Farming. LMD. November 2017:235.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> The Fruits of
+Agriculture. LMD. October 2017:209.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Food Safety: Critical
+Conscience. LMD. August 2017:182.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Farm Biodiversity:
+Shared Responsibility. LMD. July 2017:165.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Urban Ecosystems: The
+Trees of City Life. LMD. June 2017:206.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Food Safety: Better Safe
+Than Sorry. LMD. May 2017:174.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Farmers’ Markets. LMD.
+April 2017:194.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Small Holder
+Agriculture: Family Farming. LMD. March 2017: 182.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Women in Farming. LMD.
+February 2017: 206.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Start-up Farming. LMD.
+January 2017: 190.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Future-Ready Farming
+Techniques. LMD. December 2016: 222.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> The Seed of Organic
+Farming. LMD. November 2016: 220.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Urban Agriculture: Food
+Security in the City. LMD. Oct 2016: 220.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Smart Agriculture:
+Inclusive farming. LMD. Sep 2016: 203.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Empowering Farmers:
+examines the nexus between agriculture infrastructure and rural -
+development. LMD. August 2016: 210.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Farming for Tomorrow.
+LMD. July 2016: 236.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Crop Enabler: Genetic
+Engineering. LMD. June 2016: 222.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Biotech Ethics:
+Roadblocks to Research. LMD. May 2016: 187.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Farming Boost From
+Biotech. LMD. April 2016: 182.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Biodynamic Agriculture:
+Agriculture Take a Bow! LMD. March 2016: 212.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Harnessing Biotech for
+Livestock. LMD. February 2016: 195.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> The Bio-Economy. The
+All-New Investment Opportunity: Sees Scope in a Biotechnology-Led -
+Future. LMD. January 2016: 185.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Debunking the myth:
+unravels the truth behind GMO. LMD. December 2015: 233.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Sowing the seeds of
+productivity: weighs the ideal mix of farm seed inputs. LMD. November
+2015: 174.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Industrial
+Biotechnology: BIOTECH for Business. LMD. October 2015: 166.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> The Ethics of Food
+Supply: weighs the merits of genetic crop manipulation. LMD. September
+2015: 193.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Pest Control: Protecting
+the Planet Earth. LMD. August 2015: 182.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Tree Conservation:
+Blooming City. LMD. July 2015: 192.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Farm tourism:
+regenerating tourism. LMD. June 2015: 195.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> Nourishing Planet Earth:
+unearth development in rice biotechnology. LMD. May - 2015: 166.</li>
+<li><strong><em>Akila Wijerathna.</em></strong> In Search of Zero Waste:
+traces domestic waste management to townships. LMD. - March 2015:
+169.</li>
 </ul>
 
 
