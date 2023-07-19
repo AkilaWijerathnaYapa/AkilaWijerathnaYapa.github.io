@@ -12,6 +12,7 @@ title: "Selected Publications"
 
 **Peer-reviewed Scientific Journal Articles**
 
+- Beveridge, C. A., Rameau, C., and **_Wijerathna-Yapa A._**. 2023. Learnings from a century of apical dominance research. Journal of Experimental Botany, erad137-erad137. https://doi.org/10.1093/jxb/erad137
 - **_Wijerathna-Yapa A._**, and Hiti-Bandaralage, J. 2023. Tissue Culture—A Sustainable Approach to Explore Plant Stresses. Life, 13(3), 780. https://doi.org/10.3390/life13030780
 - **_Wijerathna-Yapa A._**,and Pathirana, R. 2022. Sustainable Agro-Food Systems for Addressing Climate Change and Food Security. Agriculture, 12(10), 1554. https://doi.org/10.3390/agriculture12101554
 - **_Wijerathna-Yapa A._**, Ramtekey, V., Ranawaka, B., Basnet, B.R. 2022. Applications of In Vitro Tissue Culture Technologies in Breeding and Genetic Improvement of Wheat. Plants, 11(17):2273. https://doi.org/10.3390/plants11172273
@@ -39,6 +40,9 @@ title: "Selected Publications"
 
 **Conference Papers**
 
+- **_Wijerathna-Yapa, A._**, Fortuna, N., Cooper, M. and Beveridge, C. A. 2023. Prior knowledge-driven branching phenotype prediction for shoot architecture improvement. Prior knowledge-driven branching phenotype prediction for shoot architecture improvement. ComBio 2022, Melbourne Convention and Exhibition Centre (MCE), 27-30 September 2022.
+- Fortuna, N. Z., **_Wijerathna-Yapa, A._**, and Beveridge, C. A. 2023 Modelling hormone signalling networks to better predict branching phenotypes. ComBio 2022, Melbourne Convention and Exhibition Centre (MCEC), 27-30 September 2022.
+- Signorelli, S., **_Wijerathna-Yapa, A._**, Fenske, R., Ganguly, D.R., Stroeher, F., Li,L., Pogson, B.J., Duncan, O., and Millar. H. 2022.   Methylglyoxal catabolism is induced in autophagy mutants during photomorphogenesis. ASPB Plant Biology 2022, Portland, OR. United States, 9-13 July 2022. The American Society of Plant Biologists.
 - **_Wijerathna-Yapa, A._**, Fenske, R., Li, L., Petereit, P., Cao, H., Stroher, E., Duncan, O,Millar, A.H. 2019. Application of Proteomics Techniques to Organelle Abundance Profiling of Arabidopsis thaliana Autophagy Mutants. Abstract presented at the ARC CoE in Plant Energy Biology Annual Forum 2019. The Alpine Hotel Thredbo Australia. June 4th - 6th 2019.
 - Duncan, O., **_Wijerathna-Yapa, A._**, Millar, A.H. Protein synthesis and degradation in the night and day: how cycling abundances are established and maintained. 2019. Abstract presented at the ARC CoE in Plant Energy - Biology Annual Forum 2019. The Alpine Hotel Thredbo, Australia. June 4th - 6th 2019.
 - **_Wijerathna-Yapa, A._**, Fenske, R., Li, L., Millar, A.H. 2018. Targeted Proteomics for Organelle Abundance Profiling of Arabidopsis thaliana Autophagy Mutants. Abstract presented at the ARC CoE in Plant Energy Biology Annual Forum 2018. Novotel Swan Valley Vines Resort, Australia. September 11th - 13th 2018.
@@ -47,6 +51,9 @@ title: "Selected Publications"
 
 **Magazine Articles**
 
+- **_Akila Wijerathna._** Smallholder Diversification. LMD. July 2023. 179.
+- **_Akila Wijerathna._** Climate Smart Farming. LMD. June 2023. 134.
+- **_Akila Wijerathna._** Sustainable Urban Gardens. LMD. May 2023. 125.
 - **_Akila Wijerathna._** Crops Prop Food Security. LMD. April 2023. 140.
 - **_Akila Wijerathna._** Smallholders' major roles. LMD. March 2023. 184.
 - **_Akila Wijerathna._** Wanted: Agronomy Measures. February 2023. 143.
