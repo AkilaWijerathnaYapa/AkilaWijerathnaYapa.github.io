@@ -12,10 +12,13 @@ title: "Selected Publications"
 
 **Peer-reviewed Scientific Journal Articles**
 
-- Beveridge, C. A., Rameau, C., and **_Wijerathna-Yapa A._**. 2023. Learnings from a century of apical dominance research. Journal of Experimental Botany, erad137-erad137. https://doi.org/10.1093/jxb/erad137
-- **_Wijerathna-Yapa A._**, and Hiti-Bandaralage, J. 2023. Tissue Culture—A Sustainable Approach to Explore Plant Stresses. Life, 13(3), 780. https://doi.org/10.3390/life13030780
-- **_Wijerathna-Yapa A._**,and Pathirana, R. 2022. Sustainable Agro-Food Systems for Addressing Climate Change and Food Security. Agriculture, 12(10), 1554. https://doi.org/10.3390/agriculture12101554
-- **_Wijerathna-Yapa A._**, Ramtekey, V., Ranawaka, B., Basnet, B.R. 2022. Applications of In Vitro Tissue Culture Technologies in Breeding and Genetic Improvement of Wheat. Plants, 11(17):2273. https://doi.org/10.3390/plants11172273
+- **_Wijerathna-Yapa, A._**, Henry, R.J., Dunn, M. and Beveridge, C.A., (2023). Science and opinion in decision making: A case study of the food security collapse in Sri Lanka. Modern Agriculture. 1: 142 -151. https://doi.org/10.1002/moda.18 
+- **_Wijerathna-Yapa, A._**, Bishnoi, R., Ranawaka, B., Magar, M.M., Rehman, H.U., Bharad, S.G., Lorenc, M.T., Ramtekey, V., Gohar, S., Lata, C. and Harun-Or-Rashid, M., Razzaq, M., Sajjad, M., and Basnet, B.R. (2023). Rice–wheat comparative genomics: Gains and gaps. The Crop Journal.https://doi.org/10.1016/j.cj.2023.10.008
+- Pri-Tal, O., Sun, Y., Dadras, A., Fürst-Jansen, J.M.R., Zimran, G., Michaeli, D., **_Wijerathna-Yapa, A._**, Shpilman, M., Merilo, E., Yarmolinsky, D., Efroni, I., de Vries, J., Kollist, H. and Mosquna, A. (2024), Constitutive activation of ABA receptors in Arabidopsis reveals unique regulatory circuitries. New Phytol, 241: 703-714. https://doi.org/10.1111/nph.19363.
+- Beveridge, C. A., Rameau, C., and **_Wijerathna-Yapa, A._**. 2023. Learnings from a century of apical dominance research. Journal of Experimental Botany, erad137-erad137. https://doi.org/10.1093/jxb/erad137
+- **_Wijerathna-Yapa, A._**, and Hiti-Bandaralage, J. 2023. Tissue Culture—A Sustainable Approach to Explore Plant Stresses. Life, 13(3), 780. https://doi.org/10.3390/life13030780
+- **_Wijerathna-Yapa, A._**,and Pathirana, R. 2022. Sustainable Agro-Food Systems for Addressing Climate Change and Food Security. Agriculture, 12(10), 1554. https://doi.org/10.3390/agriculture12101554
+- **_Wijerathna-Yapa, A._**, Ramtekey, V., Ranawaka, B., Basnet, B.R. 2022. Applications of In Vitro Tissue Culture Technologies in Breeding and Genetic Improvement of Wheat. Plants, 11(17):2273. https://doi.org/10.3390/plants11172273
 - Li, L., Lee, C. P., Ding, X., Qin, Y., **_Wijerathna-Yapa, A._**, Broda, M., Otegui, M. S., Ganguly, D.R., Pogson, B.J., and Millar. H. 2022. Defects in autophagy lead to selective in vivo changes in turnover of cytosolic and organelle proteins in roots and shoots of Arabidopsis. The Plant Cell, koac185, https://doi.org/10.1093/plcell/koac185
 - Li, L., Duncan, O., Ganguly, D.R., Lee, C.P., Crisp, P., **_Wijerathna-Yapa, A._**, Pogson, B.J., Salih, K., - Trosch, J., Millar, A.H., and Pogson, B.J. 2022. Metabolic enzymes degraded under high light stress - maintain their proteostasis by coupled transcriptional regulation in Arabidopsis. Proceedings of the National Academy of Sciences 119(20) e2121362119.doi: https://doi.org/10.1073/pnas.2121362119
 - **_Wijerathna-Yapa, A._**, Signorelli, S., Fenske, R., Ganguly, D.R., Stroeher, F., Li,L., Pogson, B.J., Duncan, O., and Millar. H. 2021 Autophagy mutants show delayed chloroplast development during de-etiolation in carbon limiting conditions. The Plant Journal. doi: https://doi.org/10.1111/tpj.15452
@@ -51,6 +54,12 @@ title: "Selected Publications"
 
 **Magazine Articles**
 
+- **_Akila Wijerathna._** Rich Local Food Systems. LMD. January 2024. 140.
+- **_Akila Wijerathna._** Preserve Crop Diversity3 LMD. December 2022. 187.
+- **_Akila Wijerathna._** Mitigating Global Hunger. LMD. November 2023. 135.
+- **_Akila Wijerathna._** Precision Farming Mantra. LMD. October 2023. 142.
+- **_Akila Wijerathna._** Global Food Security Pangs. LMD. September 2023. 205.
+- **_Akila Wijerathna._** Champions of Sustainability. LMD. August 2023. 133.
 - **_Akila Wijerathna._** Smallholder Diversification. LMD. July 2023. 179.
 - **_Akila Wijerathna._** Climate Smart Farming. LMD. June 2023. 134.
 - **_Akila Wijerathna._** Sustainable Urban Gardens. LMD. May 2023. 125.
