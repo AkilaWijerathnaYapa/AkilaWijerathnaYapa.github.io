@@ -13,7 +13,7 @@
 
 <title>Akila Wijerathna-Yapa</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -57,6 +57,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -81,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -138,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -171,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -180,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -233,7 +234,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -255,7 +256,7 @@ $(document).ready(function () {
   <a href="Symposia-and-Workshops.html">Symposia &amp; Workshops</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Teaching Courses &amp; Workshops
      
     <span class="caret"></span>
@@ -282,7 +283,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Laboratory Protocols
      
     <span class="caret"></span>
@@ -325,32 +326,82 @@ $(document).ready(function () {
 </div>
 
 
-<p><em>Biotechnologist | FHEA (UKPSF) | Graduate Research Scholar at the Hebrew University of Jerusalem</em></p>
+<p><em>Biotechnologist | FHEA (UKPSF) | Graduate Research Scholar at the
+Hebrew University of Jerusalem</em></p>
 <hr />
 <center>
 <img src="images/akila-riverside.jpg" width="250" />
 </center>
 <hr />
-<p>As an interdisciplinary biotechnology scientist, I proudly hold the esteemed title of Fellow of the UK Higher Education Academy (HEA) Professional Standards Framework (UKPSF). With a rich background spanning Agricultural Biotechnology, Molecular Biology, Biochemistry, and Multi-Omics (including Proteomics, Metabolomics, and Transcriptomics), along with expertise in Design and Analysis of Experiments and Statistical Data Analysis, my contributions to the field are multifaceted.</p>
-<p>Beyond the confines of traditional research and development, I am a catalyst for positive change, an innovator, and a voracious learner with diverse interests across applied biotechnology. My fervor lies in leveraging Biotechnology applications to propel R&amp;D forward, particularly in the realms of biosecurity and the intersection of science and management.</p>
-<p>Demonstrating adaptability through a track record of success across various roles in biotech and life sciences research, I specialize in fostering R&amp;D infrastructures that empower organizations to unlock their full potential, aligning their efforts with the UN Sustainable Development Goals (SDGs) and fostering innovation.</p>
-<p>I eagerly anticipate engaging in multidisciplinary research collaborations where I can contribute as an inventive and resourceful scientist. Moreover, I am deeply committed to championing the effective integration of science into policy directives and management strategies, ensuring readiness to meet the evolving needs of our global community.</p>
+<p>As an interdisciplinary biotechnology scientist, I proudly hold the
+esteemed title of Fellow of the UK Higher Education Academy (HEA)
+Professional Standards Framework (UKPSF). With a rich background
+spanning Agricultural Biotechnology, Molecular Biology, Biochemistry,
+and Multi-Omics (including Proteomics, Metabolomics, and
+Transcriptomics), along with expertise in Design and Analysis of
+Experiments and Statistical Data Analysis, my contributions to the field
+are multifaceted.</p>
+<p>Beyond the confines of traditional research and development, I am a
+catalyst for positive change, an innovator, and a voracious learner with
+diverse interests across applied biotechnology. My fervor lies in
+leveraging Biotechnology applications to propel R&amp;D forward,
+particularly in the realms of biosecurity and the intersection of
+science and management.</p>
+<p>Demonstrating adaptability through a track record of success across
+various roles in biotech and life sciences research, I specialize in
+fostering R&amp;D infrastructures that empower organizations to unlock
+their full potential, aligning their efforts with the UN Sustainable
+Development Goals (SDGs) and fostering innovation.</p>
+<p>I eagerly anticipate engaging in multidisciplinary research
+collaborations where I can contribute as an inventive and resourceful
+scientist. Moreover, I am deeply committed to championing the effective
+integration of science into policy directives and management strategies,
+ensuring readiness to meet the evolving needs of our global
+community.</p>
 <p><strong>Education</strong></p>
-<p><strong>Ph.D. (Biochem.)</strong> | The University of Western Australia, Australia | (2017-2020)</p>
-<p><em><strong>Thesis:</strong></em> <em>Unravelling the underlying components of autophagy-mediated photomorphogenesis of Arabidopsis thaliana.</em></p>
+<p><strong>Ph.D. (Biochem.)</strong> | The University of Western
+Australia, Australia | (2017-2020)</p>
+<p><em><strong>Thesis:</strong></em> <em>Unravelling the underlying
+components of autophagy-mediated photomorphogenesis of Arabidopsis
+thaliana.</em></p>
 <p>I completed the experiments at three research laboratories:</p>
-<p>The University of Western Australia: LC-MS/MS Proteomics: targeted and shotgun, Bioinformatics, Biochemistry, Isotope labelling, Metabolomics</p>
+<p>The University of Western Australia: LC-MS/MS Proteomics: targeted
+and shotgun, Bioinformatics, Biochemistry, Isotope labelling,
+Metabolomics</p>
 <p>The Australian National University: NGS– RNASeq, Bioinformatics</p>
-<p>The Harry Perkins Institute of Medical Research: Microscopic studies</p>
-<p><strong>M.Sc. Agric. (Plant Sciences)</strong> | The Hebrew University of Jerusalem, Israel | (2014-2016)</p>
-<p><em><strong>Thesis:</strong></em> <em>Analysis of constitutively Active PYRABACTIN RESISTANCE1/ PYR1 LIKE (PYL) receptors in the early development of Arabidopsis thaliana.</em></p>
-<p><em><strong>Side Project:</strong></em> <em>Identifying the function and biological role of novel protein (ABA receptor-like protein) and its interactor proteins by Y2H screen with Arabidopsis thaliana cDNA library.</em></p>
-<p><strong>B.Sc. Agric. (Hons) [Biotechnology]</strong> | Wayamba University of Sri Lanka | (2008-2012)</p>
-<p><em><strong>Research Project:</strong></em> <em>Screening of traditional rice (Oryza sativa L.) varieties for salt tolerance and molecular genetic screening of fragrant gene (badh2.1).</em></p>
-<p><em><strong>In-Plant Training:</strong></em> <em>Application of Biotechnology in Intra Cellular Pathogen Diagnostic of Coconut (Cocos nucifera L.) in Sri Lanka.</em></p>
+<p>The Harry Perkins Institute of Medical Research: Microscopic
+studies</p>
+<p><strong>M.Sc. Agric. (Plant Molecular Biology)</strong> | The Hebrew
+University of Jerusalem, Israel | (2014-2016)</p>
+<p><em><strong>Thesis:</strong></em> <em>Analysis of constitutively
+Active PYRABACTIN RESISTANCE1/ PYR1 LIKE (PYL) receptors in the early
+development of Arabidopsis thaliana.</em></p>
+<p><em><strong>Side Project:</strong></em> <em>Identifying the function
+and biological role of novel protein (ABA receptor-like protein) and its
+interactor proteins by Y2H screen with Arabidopsis thaliana cDNA
+library.</em></p>
+<p><strong>B.Sc. Agric. (Hons) [Biotechnology]</strong> | Wayamba
+University of Sri Lanka | (2008-2012)</p>
+<p><em><strong>Research Project:</strong></em> <em>Screening of
+traditional rice (Oryza sativa L.) varieties for salt tolerance and
+molecular genetic screening of fragrant gene (badh2.1).</em></p>
+<p><em><strong>In-Plant Training:</strong></em> <em>Application of
+Biotechnology in Intra Cellular Pathogen Diagnostic of Coconut (Cocos
+nucifera L.) in Sri Lanka.</em></p>
 <hr />
 <center>
-<a href="akila.ymw@gmail.com"><img src="images/EN.png" width="25" /></a> <a href="https://www.linkedin.com/in/akila-wijerathna-yapa"><img src="images/Ln.png" width="25" /></a> <a href="https://www.researchgate.net/profile/Akila-Wijerathna-Yapa"><img src="images/RG.png" width="25" /></a> <a href="https://scholar.google.com/citations?user=VABVqKIAAAAJ&amp;hl=en"><img src="images/GS.png" width="25" /></a> <a href="https://orcid.org/0000-0003-1935-8590"><img src="images/ID.png" width="25" /></a> <a href="https://twitter.com/AkilaWijerathna"><img src="images/TW.png" width="25" /></a> <a href="https://github.com/AkilaWijerathnaYapa"><img src="images/GH.png" width="25" /></a>
+<a href="akila.ymw@gmail.com"><img src="images/EN.png" width="25" /></a>
+<a href="https://www.linkedin.com/in/akila-wijerathna-yapa"><img
+src="images/Ln.png" width="25" /></a> <a
+href="https://www.researchgate.net/profile/Akila-Wijerathna-Yapa"><img
+src="images/RG.png" width="25" /></a> <a
+href="https://scholar.google.com/citations?user=VABVqKIAAAAJ&amp;hl=en"><img
+src="images/GS.png" width="25" /></a> <a
+href="https://orcid.org/0000-0003-1935-8590"><img src="images/ID.png"
+width="25" /></a> <a href="https://twitter.com/AkilaWijerathna"><img
+src="images/TW.png" width="25" /></a> <a
+href="https://github.com/AkilaWijerathnaYapa"><img src="images/GH.png"
+width="25" /></a>
 </center>
 
 
