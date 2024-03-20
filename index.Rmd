@@ -1,7 +1,7 @@
 ---
 title: "Akila Wijerathna-Yapa"
 ---
-*Agrobiotechnologist | FHEA (UKPSF) | Graduate Research Scholar at the Hebrew University of Jerusalem*
+*Biotechnologist | FHEA (UKPSF) | Graduate Research Scholar at the Hebrew University of Jerusalem*
 
 ***
 
@@ -11,17 +11,13 @@ title: "Akila Wijerathna-Yapa"
 
 ***
 
-I am an interdisciplinary researcher and a fellow of the UK Higher Education Academy (HEA) Professional Standards Framework (UKPSF).
+As an interdisciplinary biotechnology scientist, I proudly hold the esteemed title of Fellow of the UK Higher Education Academy (HEA) Professional Standards Framework (UKPSF). With a rich background spanning Agricultural Biotechnology, Molecular Biology, Biochemistry, and Multi-Omics (including Proteomics, Metabolomics, and Transcriptomics), along with expertise in Design and Analysis of Experiments and Statistical Data Analysis, my contributions to the field are multifaceted.
 
-My research background is in Agricultural Biotechnology, Molecular Plant Physiology, Biochemistry, Omics (Proteomics, Metabolomics, Transcriptomics), and Statistical data analysis. I specialize in the physiology of plant production in Controlled Environment Agriculture and Molecular Plant Physiology.
+Beyond the confines of traditional research and development, I am a catalyst for positive change, an innovator, and a voracious learner with diverse interests across applied biotechnology. My fervor lies in leveraging Biotechnology applications to propel R&D forward, particularly in the realms of biosecurity and the intersection of science and management.
 
-My role as a researcher is beyond research and development. I am an enabler of positive change, an innovator, and a quick learner with a broad range of interests in applied biotechnology. I am passionate about applications of Biotechnology for the advancement of Agricultural production with an interest in biosecurity and in the intersection of science and management.
+Demonstrating adaptability through a track record of success across various roles in biotech and life sciences research, I specialize in fostering R&D infrastructures that empower organizations to unlock their full potential, aligning their efforts with the UN Sustainable Development Goals (SDGs) and fostering innovation.
 
-I have proven my adaptability through successes in a wide range of roles in the biotech field and life sciences research. I help to develop the R&D infrastructure that enables organizations to develop their full potential and capabilities, so they can achieve UN SDGs within to develop innovations. 
-
-I firmly believe that the productivity of future agriculture lies in developing our understanding of adaptation and mitigation measures with climate change, sustainable management of water, land, soil, and other natural resources, including the protection of biodiversity.
-
-I look forward to multidisciplinary research collaboration where I can be an innovative and resourceful research scientist. Further, I am passionate about working on the effective inclusion of science into policy directives and management to optimize plant production and meet the needs of a future world.
+I eagerly anticipate engaging in multidisciplinary research collaborations where I can contribute as an inventive and resourceful scientist. Moreover, I am deeply committed to championing the effective integration of science into policy directives and management strategies, ensuring readiness to meet the evolving needs of our global community.
 
 
 
@@ -30,15 +26,15 @@ I look forward to multidisciplinary research collaboration where I can be an inn
 
 **Education**
 
-**Ph.D. (Plant Physiol. Biochem.)** | The University of Western Australia, Australia | (2017-2020)
+**Ph.D. (Biochem.)** | The University of Western Australia, Australia | (2017-2020)
 
 _**Thesis:**_ _Unravelling the underlying components of autophagy-mediated photomorphogenesis of Arabidopsis thaliana._
 
 I completed the experiments at three research laboratories:
 
-The University of Western Australia: LC-MS/MS Proteomics: targeted and shotgun, Bioinformatics, Biochemistry, Isotope labelling, Physiology
+The University of Western Australia: LC-MS/MS Proteomics: targeted and shotgun, Bioinformatics, Biochemistry, Isotope labelling, Metabolomics
 
-The Australian National University: NGS– RNASeq, Bioinformatics, Plant Physiology
+The Australian National University: NGS– RNASeq, Bioinformatics
 
 The Harry Perkins Institute of Medical Research: Microscopic studies
 
