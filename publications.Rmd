@@ -13,7 +13,8 @@ title: "Selected Publications"
 
 **Peer-reviewed Scientific Journal Articles**
 
-- **_Wijerathna-Yapa, A._**, Bishnoi, R., Ranawaka, B., Magar, M.M., Rehman, H.U., Bharad, S.G., Lorenc, M.T., Ramtekey, V., Gohar, S., Lata, C. and Harun-Or-Rashid, M., Razzaq, M., Sajjad, M., and Basnet, B.R. (2023). Rice–wheat comparative genomics: Gains and gaps. The Crop Journal. https://doi.org/10.1016/j.cj.2023.10.008
+- Carra, A., **_Wijerathna-Yapa, A._**, Pathirana, R., & Carimi, F. (2024). Development and applications of somatic embryogenesis in grapevine (Vitis spp.). Plants, 13(22), 3131.  https://doi.org/10.3390/plants13223131
+- **_Wijerathna-Yapa, A._**, Bishnoi, R., Ranawaka, B., Magar, M.M., Rehman, H.U., Bharad, S.G., Lorenc, M.T., Ramtekey, V., Gohar, S., Lata, C. and Harun-Or-Rashid, M., Razzaq, M., Sajjad, M., and Basnet, B.R. (2023). Rice–wheat comparative genomics: Gains and gaps. The Crop Journal, 12(3), 656-669. https://doi.org/10.1016/j.cj.2023.10.008
 - Pri-Tal, O., Sun, Y., Dadras, A., Fürst-Jansen, J.M.R., Zimran, G., Michaeli, D., **_Wijerathna-Yapa, A._**, Shpilman, M., Merilo, E., Yarmolinsky, D., Efroni, I., de Vries, J., Kollist, H. and Mosquna, A. (2024), Constitutive activation of ABA receptors in Arabidopsis reveals unique regulatory circuitries. New Phytol, 241: 703-714. https://doi.org/10.1111/nph.19363.
 - **_Wijerathna-Yapa, A._**, Henry, R.J., Dunn, M. and Beveridge, C.A., (2023). Science and opinion in decision making: A case study of the food security collapse in Sri Lanka. Modern Agriculture. 1: 142 -151. https://doi.org/10.1002/moda.18 
 - Beveridge, C. A., Rameau, C., and **_Wijerathna-Yapa, A._**. (2023). Learnings from a century of apical dominance research. Journal of Experimental Botany, erad137-erad137. https://doi.org/10.1093/jxb/erad137
@@ -55,8 +56,19 @@ title: "Selected Publications"
 
 **Magazine Articles**
 
+- **_Akila Wijerathna._** Agroforestry to the Fore. December 2024. 212.
+- **_Akila Wijerathna._** Smart Farming Revolution. LMD. November 2024. 172.
+- **_Akila Wijerathna._** Sustainability at the core. LMD. October 2024. 204.
+- **_Akila Wijerathna._** Reshaping the Rural Economy. LMD. September 2024. 135.
+- **_Akila Wijerathna._** Rise of Urban Farms. LMD. August 2024. 145.
+- **_Akila Wijerathna._** Revitalized Farming systems. LMD. July 2024. 175.
+- **_Akila Wijerathna._** Green future on the Line. LMD. June 2024. 135.
+- **_Akila Wijerathna._** The Advent of Tech Farming. LMD. May 2024. 142.
+- **_Akila Wijerathna._** Eco-Friendly Agri Exports. LMD. April 2024. 157.
+- **_Akila Wijerathna._** Crops under the Weather. LMD. March 2024. 157.
+- **_Akila Wijerathna._** Adopt Precision Farm Tech. February 2024. 129.
 - **_Akila Wijerathna._** Rich Local Food Systems. LMD. January 2024. 140.
-- **_Akila Wijerathna._** Preserve Crop Diversity3 LMD. December 2022. 187.
+- **_Akila Wijerathna._** Preserve Crop Diversity LMD. December 2022. 187.
 - **_Akila Wijerathna._** Mitigating Global Hunger. LMD. November 2023. 135.
 - **_Akila Wijerathna._** Precision Farming Mantra. LMD. October 2023. 142.
 - **_Akila Wijerathna._** Global Food Security Pangs. LMD. September 2023. 205.
@@ -71,46 +83,46 @@ title: "Selected Publications"
 - **_Akila Wijerathna._** Farming needs reimagining. LMD. December 2022. 141.
 - **_Akila Wijerathna._** Climate and Agriculture. LMD. November 2022. 138.
 - **_Akila Wijerathna._** Zero Hunger — The End Goal. LMD. October 2022. 135.
-- **_Akila Wijerathna._** Farming without farmland —the value of CEA. LMD. September 2022. 148.
-- **_Akila Wijerathna._** Flowering of a Green Idea — Floriculture sector. LMD. August 2022. 147.
+- **_Akila Wijerathna._** Farming without farmland. LMD. September 2022. 148.
+- **_Akila Wijerathna._** Flowering of a Green Idea. LMD. August 2022. 147.
 - **_Akila Wijerathna._** Farming and Supply Chains. LMD. July 2022. 178.
 - **_Akila Wijerathna._** Big Challenges Small Farms. LMD. June 2022. 142.
 - **_Akila Wijerathna._** Going Green: The smart way. LMD. May 2022. 124.
 - **_Akila Wijerathna._** Gains from the Smart Farming. LMD. April 2022. 114.
 - **_Akila Wijerathna._** Biotechnology's Golden Era. LMD. March 2022. 183.
 - **_Akila Wijerathna._** Piggybacking on Agriculture. LMD. February 2022. 137.
-- **_Akila Wijerathna._** Supply Chain Disruptions as a result of COVID-19. LMD. January 2022. 144.
+- **_Akila Wijerathna._** Supply Chain Disruptions. LMD. January 2022. 144.
 - **_Akila Wijerathna._** Post-COVID food security. LMD. December 2021. 184.
 - **_Akila Wijerathna._** Pest control in Agri-Food. LMD. November 2021. 115.
 - **_Akila Wijerathna._** AI and Climate Emergencies. LMD. October 2021. 69.
 - **_Akila Wijerathna._** Bio-based farm economy. LMD. September 2021. 132.
-- **_Akila Wijerathna._** Bridging the Gender Gap — emphasises the need to empower female smallholder farmers. LMD. August 2021. 138.
+- **_Akila Wijerathna._** Bridging the Gender Gap. LMD. August 2021. 138.
 - **_Akila Wijerathna._** Climate Crisis and Farming. LMD. July 2021. 174.
 - **_Akila Wijerathna._** Indoor Farming Takes Root. LMD. June 2021. 126.
 - **_Akila Wijerathna._** Green Energy for Crops. LMD. May 2021. 144.
 - **_Akila Wijerathna._** Mitigating farming risks. LMD. April 2021. 137.
-- **_Akila Wijerathna._** Protecting the Planet - reducing food waste will curtail greenhouse gases. LMD. March 2021. 155.
-- **_Akila Wijerathna._** The Urban-Rural Divide — How biotechnology can develop rural economy. LMD. - February 2021. 117.
-- **_Akila Wijerathna._** Innovating for Security - Agriculture. LMD. January 2021. 150.
+- **_Akila Wijerathna._** Protecting the Planet. LMD. March 2021. 155.
+- **_Akila Wijerathna._** The Urban-Rural Divid. LMD. February 2021. 117.
+- **_Akila Wijerathna._** Innovating for Security. LMD. January 2021. 150.
 - **_Akila Wijerathna._** Next Generation Production. LMD. December 2020. 132.
 - **_Akila Wijerathna._** Combating land degradation. LMD. November 2020. 129.
 - **_Akila Wijerathna._** Resourceful conservation in the agriculture sector. LMD. October 2020. 122.
-- **_Akila Wijerathna._** The Breadbasket Failures: The food system woes unearthed by the pandemic. LMD. - September 2020. 164.
-- **_Akila Wijerathna._** Agriculture Sector: The pursuit of equality. LMD. August 2020. 144.
-- **_Akila Wijerathna._** Agriculture Sector: Ecological Intensification. LMD. July 2020. 128.
-- **_Akila Wijerathna._** The Farming Transformation: economic benefits of agricultural growth. LMD. - June 2020. 116.
-- **_Akila Wijerathna._** Next Generation Farming: impact of new technologies on sustainability. LMD. - May 2020. 116.
-- **_Akila Wijerathna._** Smallholder development: impact of urbanization on smallholder farmers. LMD. - April 2020. 150.
+- **_Akila Wijerathna._** The food system woes unearthed by the pandemic. LMD. - September 2020. 164.
+- **_Akila Wijerathna._** The pursuit of equality. LMD. August 2020. 144.
+- **_Akila Wijerathna._** Ecological Intensification. LMD. July 2020. 128.
+- **_Akila Wijerathna._** The Farming Transformation. LMD. - June 2020. 116.
+- **_Akila Wijerathna._** Next Generation Farming. LMD. - May 2020. 116.
+- **_Akila Wijerathna._** Smallholder development. LMD. - April 2020. 150.
 - **_Akila Wijerathna._** Climate Change Proofing. LMD. March 2020. 160.
-- **_Akila Wijerathna._** Organic Farming: dispels umpteen misconceptions associated with agriculture. LMD. February 2020. 142.
+- **_Akila Wijerathna._** Dispels umpteen misconceptions associated with agriculture. LMD. February 2020. 142.
 - **_Akila Wijerathna._** Sustainable Collaboration to develop a sustainable global food system. LMD. - January 2020. 190.
 - **_Akila Wijerathna._** The Smallholder Challenge. LMD. December 2019. 174.
 - **_Akila Wijerathna._** Agro's Digital Revolution. LMD. November 2019. 176.
-- **_Akila Wijerathna._** Investing in Development; notes how agricultural growth boosts the wider economy. LMD. October 2019. 169.
-- **_Akila Wijerathna._** Sustainable Transformation: highlights a prerequisite for innovative farming systems. - LMD. September 2019. 145.
-- **_Akila Wijerathna._** Production To Go Bananas? unpeels the economic benefits of commercializing a fruit!. LMD. August 2019. 136.
+- **_Akila Wijerathna._** Investing in Development. LMD. October 2019. 169.
+- **_Akila Wijerathna._** Sustainable Transformation. - LMD. September 2019. 145.
+- **_Akila Wijerathna._** Unpeels the economic benefits of commercializing a fruit!. LMD. August 2019. 136.
 - **_Akila Wijerathna._** The Gender Gap in Farming. LMD. July 2019. 193.
-- **_Akila Wijerathna._** Develop Genetic Diversity: ramification of adapting crop heterogeneity. LMD. - June 2019. 167.
+- **_Akila Wijerathna._** Develop Genetic Diversity. LMD. - June 2019. 167.
 - **_Akila Wijerathna._** Genetically Engineered DNA. LMD. May 2019. 171.
 - **_Akila Wijerathna._** Growing Community Gardens. LMD. April 2019. 139.
 - **_Akila Wijerathna._** The Food Security Crunch. LMD. March 2019. 155.
@@ -120,15 +132,15 @@ title: "Selected Publications"
 - **_Akila Wijerathna._** Untapped Biotech Potential. LMD. November 2018. 197.
 - **_Akila Wijerathna._** Holistic Farming Practice. LMD. October 2018. 181.
 - **_Akila Wijerathna._** The Maze of Biotechnology. LMD. September 2018. 181.
-- **_Akila Wijerathna._** The Trail of Breadcrumbs: Post Harvest Losses. LMD. August 2018. 175.
-- **_Akila Wijerathna._** Organic Farming: Time to defy the convention. LMD. July 2018. 229.
-- **_Akila Wijerathna._** Digital Farming: Agro made simple by 'E'. LMD. June 2018. 172.
+- **_Akila Wijerathna._** Post Harvest Losses. LMD. August 2018. 175.
+- **_Akila Wijerathna._** Organic Farming. LMD. July 2018. 229.
+- **_Akila Wijerathna._** Digital Farming. LMD. June 2018. 172.
 - **_Akila Wijerathna._** The Science of Sharing. LMD. May 2018. 213.
 - **_Akila Wijerathna._** Saving the Plants from Stress. LMD. April 2018. 166.
 - **_Akila Wijerathna._** The Future of Agriculture. LMD. March 2018. 202.
 - **_Akila Wijerathna._** Waste from Green Field. LMD. February 2018. 172.
 - **_Akila Wijerathna._** Family Farming: Breaking the Cycle. LMD. January 2018. 178.
-- **_Akila Wijerathna._** Floriculture Sector: The Flowering State. LMD. December 2017:198.
+- **_Akila Wijerathna._** Floriculture Sector. LMD. December 2017:198.
 - **_Akila Wijerathna._** Agriculture Revival: Organic Farming. LMD. November 2017:235.
 - **_Akila Wijerathna._** The Fruits of Agriculture. LMD. October 2017:209.
 - **_Akila Wijerathna._** Food Safety: Critical Conscience. LMD. August 2017:182.
@@ -136,27 +148,27 @@ title: "Selected Publications"
 - **_Akila Wijerathna._** Urban Ecosystems: The Trees of City Life. LMD. June 2017:206.
 - **_Akila Wijerathna._** Food Safety: Better Safe Than Sorry. LMD. May 2017:174. 
 - **_Akila Wijerathna._** Farmers' Markets. LMD. April 2017:194. 
-- **_Akila Wijerathna._** Small Holder Agriculture: Family Farming. LMD. March 2017: 182.
+- **_Akila Wijerathna._** Small Holder Agriculture. LMD. March 2017: 182.
 - **_Akila Wijerathna._** Women in Farming. LMD. February 2017: 206.
 - **_Akila Wijerathna._** Start-up Farming. LMD. January 2017: 190.
 - **_Akila Wijerathna._** Future-Ready Farming Techniques. LMD. December 2016: 222.
 - **_Akila Wijerathna._** The Seed of Organic Farming. LMD. November 2016: 220.
-- **_Akila Wijerathna._** Urban Agriculture: Food Security in the City. LMD. Oct 2016: 220.
+- **_Akila Wijerathna._** Urban Agriculture. LMD. Oct 2016: 220.
 - **_Akila Wijerathna._** Smart Agriculture: Inclusive farming. LMD. Sep 2016: 203.
-- **_Akila Wijerathna._** Empowering Farmers: examines the nexus between agriculture infrastructure and rural - development. LMD. August 2016: 210.
+- **_Akila Wijerathna._** Empowering Farmers. LMD. August 2016: 210.
 - **_Akila Wijerathna._** Farming for Tomorrow. LMD. July 2016: 236.
 - **_Akila Wijerathna._** Crop Enabler: Genetic Engineering. LMD. June 2016: 222.
 - **_Akila Wijerathna._** Biotech Ethics: Roadblocks to Research. LMD. May 2016: 187.
 - **_Akila Wijerathna._** Farming Boost From Biotech. LMD. April 2016: 182.
-- **_Akila Wijerathna._** Biodynamic Agriculture: Agriculture Take a Bow! LMD. March 2016: 212.
+- **_Akila Wijerathna._** Biodynamic Agriculture. LMD. March 2016: 212.
 - **_Akila Wijerathna._** Harnessing Biotech for Livestock. LMD. February 2016: 195.
-- **_Akila Wijerathna._** The Bio-Economy. The All-New Investment Opportunity: Sees Scope in a Biotechnology-Led - Future. LMD. January 2016: 185.
-- **_Akila Wijerathna._** Debunking the myth: unravels the truth behind GMO. LMD. December 2015: 233.
-- **_Akila Wijerathna._** Sowing the seeds of productivity: weighs the ideal mix of farm seed inputs. LMD. November 2015: 174.
-- **_Akila Wijerathna._** Industrial Biotechnology: BIOTECH for Business. LMD. October 2015: 166.
-- **_Akila Wijerathna._** The Ethics of Food Supply: weighs the merits of genetic crop manipulation. LMD. September 2015: 193.
-- **_Akila Wijerathna._** Pest Control: Protecting the Planet Earth. LMD. August 2015: 182.
+- **_Akila Wijerathna._** The Bio-Economy. LMD. January 2016: 185.
+- **_Akila Wijerathna._** Unravels the truth behind GMO. LMD. December 2015: 233.
+- **_Akila Wijerathna._** Sowing the seeds of productivity. LMD. November 2015: 174.
+- **_Akila Wijerathna._** BIOTECH for Business. LMD. October 2015: 166.
+- **_Akila Wijerathna._** The Ethics of Food Supply. LMD. September 2015: 193.
+- **_Akila Wijerathna._** Protecting the Planet Earth. LMD. August 2015: 182.
 - **_Akila Wijerathna._** Tree Conservation: Blooming City. LMD. July 2015: 192.
 - **_Akila Wijerathna._** Farm tourism: regenerating tourism. LMD. June 2015: 195.
-- **_Akila Wijerathna._** Nourishing Planet Earth: unearth development in rice biotechnology. LMD. May - 2015: 166.
-- **_Akila Wijerathna._** In Search of Zero Waste: traces domestic waste management to townships. LMD. - March 2015: 169.
+- **_Akila Wijerathna._** Unearth development in rice biotechnology. LMD. May 2015: 166.
+- **_Akila Wijerathna._** In Search of Zero Waste. LMD. - March 2015: 169.
