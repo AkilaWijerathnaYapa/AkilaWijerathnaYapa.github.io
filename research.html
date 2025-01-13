@@ -13,7 +13,7 @@
 
 <title>Current and Future Research</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -57,6 +57,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -81,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -138,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -171,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -180,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -233,7 +234,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -255,7 +256,7 @@ $(document).ready(function () {
   <a href="Symposia-and-Workshops.html">Symposia &amp; Workshops</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Teaching Courses &amp; Workshops
      
     <span class="caret"></span>
@@ -282,7 +283,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Laboratory Protocols
      
     <span class="caret"></span>
@@ -326,22 +327,97 @@ $(document).ready(function () {
 
 
 <hr />
-<p>My academic background has imbued me with interest in the interdisciplinary biotechnology research and intersection of science and management. I bring skills in research project proposal formulation and management, scientific and technical writing, statistical data analysis, and key laboratory techniques in Biotechnology, Biochemistry, Molecular biology, and Multi-Omics (Proteomics, Metabolomics, Transcriptomics) to research groups.</p>
-<p>I lead and complete 7 independent research projects and collaborated on 2 projects.</p>
+<p>My academic background has imbued me with interest in the
+interdisciplinary expertise in Biotechnology and Bioinformatics,
+specializing in experimental design, laboratory management, and
+multi-omics research. Proficient in Mass Spectrometry-based Proteomics,
+Metabolomics, and Lipidomics, NMR, EPR, and Transcriptomics, with a
+strong background in statistical data analysis for omics data. Proven
+track record in project management and collaborative research, having
+successfully partnered with leading research institutes in Sri Lanka,
+China, Israel, Australia, and Canada.</p>
+<p>I lead and complete 15 independent research projects and collaborated
+on 3 projects.</p>
 <p><strong>Independent Projects</strong></p>
 <ol style="list-style-type: decimal">
-<li>Determining the contribution of autophagy to protein turnover rate of energy organelles in the model plant <em>Arabidopsis</em>. <em>at the University of Western Australia, the Australian National University, the Harry Perkins Institute of Medical Research</em>.</li>
-<li>Analysis of constitutively active PYRABACTIN RESISTANCE1/ PYR1-LIKE (PYL) receptors in the early development of <em>Arabidopsis thaliana</em>. Identifying the function and biological role of abscisic acid receptors beyond hormonal signaling. <em>at the Hebrew University of Jerusalem.</em></li>
-<li>Screening an Arabidopsis cDNA library for interactor proteins of cyclase novel protein responsible for crop abiotic stress tolerance. <em>at the Hebrew University of Jerusalem and the Weizmann Institute of Science.</em></li>
-<li>Effects of different hormonal concentrations and culture medium on multiplication and rooting of stage II banana <em>(Musa cavendishii)</em>. <em>at the Hebrew University of Jerusalem.</em></li>
-<li>Application of Biotechnology in Intra Cellular Pathogen Diagnostic of Coconut <em>(Cocos nucifera L.)</em> in Sri Lanka. Developed PCR and 2D-PAGE based molecular diagnosis method for CCCVd viroid disease and Phytoplasma. <em>at Coconut Research Institute Sri Lanka.</em></li>
-<li>Assessment of Inter and Intra Cultivar Genetic and Phenotypic Variation in Grain Quality Characteristics of Sri Lankan Traditional Aromatic Rice <em>(Oryza Sativa L.)</em>. <em>at Rice Research and Development Institute Sri Lanka and the Wayamba University of Sri Lanka.</em></li>
-<li>Exploration of the relationship between fragrant gene and growth performances of fragrant rice <em>(Oryza sativa L.)</em> seedlings under salinity stress. <em>at Rice Research and Development Institute Sri Lanka and the Wayamba University of Sri Lanka.</em></li>
+<li><p>Investigating the effects of storage conditions on fetal bovine
+serum for cell culture using multi-omics approaches, including
+LC-MS/MS-based Data-Dependent Acquisition (DDA) and Data-Independent
+Acquisition (DIA) proteomics, DDA metabolomics, and DDA lipidomics.
+<em>at Dalhousie University, Canada.</em></p></li>
+<li><p>Conducting DIA proteomics characterization of human umbilical
+mesenchymal stem cell (hUMSC)-derived exosomes for the development of
+skin biopharmaceuticals. <em>at Dalhousie University,
+Canada.</em></p></li>
+<li><p>Mass Spectrometry (MS) and Nuclear Magnetic Resonance (NMR)-based
+metabolomic profiling of hydrolysates derived from commercial sources
+(yeast, pea, wheat, soy, cotton) to optimize Chinese hamster ovary (CHO)
+cell culture media for recombinant protein and monoclonal antibody (mAb)
+production. <em>at Dalhousie University, Canada.</em></p></li>
+<li><p>Mass Spectrometry and Nuclear magnetic resonance (NMR) based
+Metabolomic profiling of hydrolysates derived from a variety of
+commercial sources such as yeast, pea, wheat, soy, and cotton, for
+Chinese hamster ovary (CHO) cell growth media formulation for
+recombinant proteins, monoclonal antibodies (mAbs) production. <em>at
+Dalhousie University, Canada.</em></p></li>
+<li><p>Measuring free radicals in cell culture media using Electron
+Paramagnetic Resonance (EPR) spectroscopy to study oxidative stress in
+cellular environments. <em>at Dalhousie University,
+Canada.</em></p></li>
+<li><p>Developed a multi-platform metabolomics analysis pipeline for
+Arabidopsis thaliana. <em>at The University of Queensland, ,
+Australia.</em></p></li>
+<li><p>Investigated hormonal regulation of axillary meristem in
+Arabidopsis thaliana using Mass Spectrometry-based DIA proteomics and
+metabolomics analysis of T-DNA mutant lines. <em>at The University of
+Queensland, , Australia.</em></p></li>
+<li><p>Conducted in vitro tissue culture research and comparative
+genomics for wheat breeding and genetic improvement. <em>at The
+University of Queensland, , Australia.</em></p></li>
+<li><p>Determining the contribution of autophagy to protein turnover
+rate of energy organelles in the model plant <em>Arabidopsis</em>.
+<em>at the University of Western Australia, the Australian National
+University, the Harry Perkins Institute of Medical
+Research</em>.</p></li>
+<li><p>Analysis of constitutively active PYRABACTIN RESISTANCE1/
+PYR1-LIKE (PYL) receptors in the early development of <em>Arabidopsis
+thaliana</em>. Identifying the function and biological role of abscisic
+acid receptors beyond hormonal signaling. <em>at the Hebrew University
+of Jerusalem, Israel.</em></p></li>
+<li><p>Screening an Arabidopsis cDNA library for interactor proteins of
+cyclase novel protein responsible for crop abiotic stress tolerance.
+<em>at the Hebrew University of Jerusalem and the Weizmann Institute of
+Science, Israel.</em></p></li>
+<li><p>Effects of different hormonal concentrations and culture medium
+on multiplication and rooting of stage II banana <em>(Musa
+cavendishii)</em>. <em>at the Hebrew University of Jerusalem,
+Israel.</em></p></li>
+<li><p>Application of Biotechnology in Intra Cellular Pathogen
+Diagnostic of Coconut <em>(Cocos nucifera L.)</em> in Sri Lanka.
+Developed PCR and 2D-PAGE based molecular diagnosis method for CCCVd
+viroid disease and Phytoplasma. <em>at Coconut Research Institute Sri
+Lanka.</em></p></li>
+<li><p>Assessment of Inter and Intra Cultivar Genetic and Phenotypic
+Variation in Grain Quality Characteristics of Sri Lankan Traditional
+Aromatic Rice <em>(Oryza Sativa L.)</em>. <em>at Rice Research and
+Development Institute Sri Lanka and the Wayamba University of Sri
+Lanka.</em></p></li>
+<li><p>Exploration of the relationship between fragrant gene and growth
+performances of fragrant rice <em>(Oryza sativa L.)</em> seedlings under
+salinity stress. <em>at Rice Research and Development Institute Sri
+Lanka and the Wayamba University of Sri Lanka.</em></p></li>
 </ol>
 <p><strong>Collaborative Projects</strong></p>
 <ol style="list-style-type: decimal">
-<li>Discovering the role of autophagic protein turnovers under phosphate deficiency conditions. <em>at the University of Western Australia.</em></li>
-<li>Unraveling protein turnover under high light and low light stressed conditions. <em>at the University of Western Australia.</em></li>
+<li><p>Discovering the role of autophagic protein turnovers under
+phosphate deficiency conditions. <em>at the University of Western
+Australia.</em></p></li>
+<li><p>Unraveling protein turnover under high light and low light
+stressed conditions. <em>at the University of Western
+Australia.</em></p></li>
+<li><p>Explored in vitro tissue culture applications for somatic
+embryogenesis in grapevine (Vitis spp.). <em>at The University of
+Queensland, Australia.</em></p></li>
 </ol>
 
 

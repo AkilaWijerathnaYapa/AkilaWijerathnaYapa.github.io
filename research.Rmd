@@ -4,23 +4,47 @@ title: "Current and Future Research"
 
 ***
 
-My academic background has imbued me with interest in the interdisciplinary biotechnology research and intersection of science and management. I bring skills in research project proposal formulation and management, scientific and technical writing, statistical data analysis, and key laboratory techniques in Biotechnology, Biochemistry, Molecular biology, and Multi-Omics (Proteomics, Metabolomics, Transcriptomics) to research groups.  
+My academic background has imbued me with interest in the interdisciplinary expertise in Biotechnology and Bioinformatics, specializing in experimental design, laboratory management, and multi-omics research. Proficient in Mass Spectrometry-based Proteomics, Metabolomics, and Lipidomics, NMR, EPR, and Transcriptomics, with a strong background in statistical data analysis for omics data. Proven track record in project management and collaborative research, having successfully partnered with leading research institutes in Sri Lanka, China, Israel, Australia, and Canada.
 
 
-I lead and complete 7 independent research projects and collaborated on 2 projects.
+I lead and complete 15 independent research projects and collaborated on 3 projects.
 
 **Independent Projects**
 
-1.	Determining the contribution of autophagy to protein turnover rate of energy organelles in the model plant _Arabidopsis_. _at the University of Western Australia, the Australian National University, the Harry Perkins Institute of Medical Research_.
-2.	Analysis of constitutively active PYRABACTIN RESISTANCE1/ PYR1-LIKE (PYL) receptors in the early development of _Arabidopsis thaliana_. Identifying the function and biological role of abscisic acid receptors beyond hormonal signaling. _at the Hebrew University of Jerusalem._ 
-3.	Screening an Arabidopsis cDNA library for interactor proteins of cyclase novel protein responsible for crop abiotic stress tolerance. _at the Hebrew University of Jerusalem and the Weizmann Institute of Science._
-4.	Effects of different hormonal concentrations and culture medium on multiplication and rooting of stage II banana _(Musa cavendishii)_. _at the Hebrew University of Jerusalem._
-5.	Application of Biotechnology in Intra Cellular Pathogen Diagnostic of Coconut _(Cocos nucifera L.)_ in Sri Lanka. Developed PCR and 2D-PAGE based molecular diagnosis method for CCCVd viroid disease and Phytoplasma. _at Coconut Research Institute Sri Lanka._
-6.	Assessment of Inter and Intra Cultivar Genetic and Phenotypic Variation in Grain Quality Characteristics of Sri Lankan Traditional Aromatic Rice _(Oryza Sativa L.)_. _at Rice Research and Development Institute Sri Lanka and the Wayamba University of Sri Lanka._
-7.	Exploration of the relationship between fragrant gene and growth performances of fragrant rice _(Oryza sativa L.)_ seedlings under salinity stress. _at Rice Research and Development Institute Sri Lanka and the Wayamba University of Sri Lanka._
+1. Investigating the effects of storage conditions on fetal bovine serum for cell culture using multi-omics approaches, including LC-MS/MS-based Data-Dependent Acquisition (DDA) and Data-Independent Acquisition (DIA) proteomics, DDA metabolomics, and DDA lipidomics. _at Dalhousie University, Canada._
+
+2. Conducting DIA proteomics characterization of human umbilical mesenchymal stem cell (hUMSC)-derived exosomes for the development of skin biopharmaceuticals. _at Dalhousie University, Canada._
+
+3.	Mass Spectrometry (MS) and Nuclear Magnetic Resonance (NMR)-based metabolomic profiling of hydrolysates derived from commercial sources (yeast, pea, wheat, soy, cotton) to optimize Chinese hamster ovary (CHO) cell culture media for recombinant protein and monoclonal antibody (mAb) production. _at Dalhousie University, Canada._
+
+4.	Mass Spectrometry and Nuclear magnetic resonance (NMR) based Metabolomic profiling of hydrolysates derived from a variety of commercial sources such as yeast, pea, wheat, soy, and cotton, for Chinese hamster ovary (CHO) cell growth media formulation for recombinant proteins, monoclonal antibodies (mAbs) production. _at Dalhousie University, Canada._
+
+5.	Measuring free radicals in cell culture media using Electron Paramagnetic Resonance (EPR) spectroscopy to study oxidative stress in cellular environments. _at Dalhousie University, Canada._
+
+6.	Developed a multi-platform metabolomics analysis pipeline for Arabidopsis thaliana. _at The University of Queensland, ,  Australia._
+
+7.	Investigated hormonal regulation of axillary meristem in Arabidopsis thaliana using Mass Spectrometry-based DIA proteomics and metabolomics analysis of T-DNA mutant lines. _at The University of Queensland, ,  Australia._
+
+8. Conducted in vitro tissue culture research and comparative genomics for wheat breeding and genetic improvement. _at The University of Queensland, ,  Australia._
+
+9.	Determining the contribution of autophagy to protein turnover rate of energy organelles in the model plant _Arabidopsis_. _at the University of Western Australia, the Australian National University, the Harry Perkins Institute of Medical Research_.
+
+10.	Analysis of constitutively active PYRABACTIN RESISTANCE1/ PYR1-LIKE (PYL) receptors in the early development of _Arabidopsis thaliana_. Identifying the function and biological role of abscisic acid receptors beyond hormonal signaling. _at the Hebrew University of Jerusalem, Israel._ 
+
+11.	Screening an Arabidopsis cDNA library for interactor proteins of cyclase novel protein responsible for crop abiotic stress tolerance. _at the Hebrew University of Jerusalem and the Weizmann Institute of Science, Israel._
+
+12.	Effects of different hormonal concentrations and culture medium on multiplication and rooting of stage II banana _(Musa cavendishii)_. _at the Hebrew University of Jerusalem, Israel._
+
+13.	Application of Biotechnology in Intra Cellular Pathogen Diagnostic of Coconut _(Cocos nucifera L.)_ in Sri Lanka. Developed PCR and 2D-PAGE based molecular diagnosis method for CCCVd viroid disease and Phytoplasma. _at Coconut Research Institute Sri Lanka._
+
+14.	Assessment of Inter and Intra Cultivar Genetic and Phenotypic Variation in Grain Quality Characteristics of Sri Lankan Traditional Aromatic Rice _(Oryza Sativa L.)_. _at Rice Research and Development Institute Sri Lanka and the Wayamba University of Sri Lanka._
+
+15.	Exploration of the relationship between fragrant gene and growth performances of fragrant rice _(Oryza sativa L.)_ seedlings under salinity stress. _at Rice Research and Development Institute Sri Lanka and the Wayamba University of Sri Lanka._
 
 **Collaborative Projects**
 
 1.	Discovering the role of autophagic protein turnovers under phosphate deficiency conditions. _at the University of Western Australia._
+
 2.	Unraveling protein turnover under high light and low light stressed conditions. _at the University of Western Australia._
 
+3.	Explored in vitro tissue culture applications for somatic embryogenesis in grapevine (Vitis spp.). _at The University of Queensland,  Australia._

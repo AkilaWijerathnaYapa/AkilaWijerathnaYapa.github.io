@@ -4,30 +4,29 @@ title: "Selected Publications"
 
 ***
 
-**Preprints**
+**Publications under review**
 
-- Valladares García, A. P., **_Wijerathna-Yapa, A._**, Mishra, S., Or-Rashid, H., Nehra, M., Ramtekey, V., Ndah, R., Magar, M. M., Opondo, D., Sasha, Kumar, S., Swati, Tenesi, T., Bentley, A. R., & Basnet, B. R. (2022). In the pursuit of equality for women plant breeders around the world.  https://doi.org/10.5281/zenodo.7385758
-- Li, L., Duncan, O., Ganguly, D.R., Lee, C.P., Crisp, P., **_Wijerathna-Yapa, A._**, Pogson, B.J., Salih, K., - Trosch, J., Millar, A.H., and Pogson, B.J. (2021). Metabolic enzymes degraded under high light stress - maintain their proteostasis by coupled transcriptional regulation in Arabidopsis. bioRxiv.doi: https://doi.org/10.1101/2021.10.03.462903
-- Li, L., Lee, C. P., **_Wijerathna-Yapa, A._**, Broda, M., Otegui, M. S., Ganguly, D.R., Pogson, B.J., and Millar. H. (2021). Defects in autophagy lead to selective in vivo changes in turnover of cytosolic and organelle proteins in roots and shoots of Arabidopsis. bioRxiv.doi: https://doi.org/10.1101/2021.04.29.441983
-- **_Wijerathna-Yapa, A._**, Signorelli, S., Fenske, R., Ganguly, D.R., Stroeher, F., Li,L., Pogson, B.J., Duncan, O., and Millar. H. (2021). Autophagy promotes photomorphogenesis during seedling development in Arabidopsis in carbon limiting conditions. bioRxiv.doi: https://doi.org/10.1101/2021.03.25.437007
+-	**_Wijerathna-Yapa, A._**, Isaac, K.S., Combe, M., Hume, S., and Sokolenko, S. (2025). Re-imagining Human Cell Culture Media: Challenges, Innovations, and Future Directions. Biotechnology Advances (JBA-D-24-01213)
+-	Isaac, K.S., Leb, P. M., Street, T., **_Wijerathna-Yapa, A._**, and Sokolenko, S. (2025). Advancing Quantitative NMR for High-Precision Isotopic Analysis with rnmrfit 2.0. Analytical Chemistry.
+
 
 **Peer-reviewed Scientific Journal Articles**
 
-- Carra, A., **_Wijerathna-Yapa, A._**, Pathirana, R., & Carimi, F. (2024). Development and applications of somatic embryogenesis in grapevine (Vitis spp.). Plants, 13(22), 3131.  https://doi.org/10.3390/plants13223131
-- **_Wijerathna-Yapa, A._**, Bishnoi, R., Ranawaka, B., Magar, M.M., Rehman, H.U., Bharad, S.G., Lorenc, M.T., Ramtekey, V., Gohar, S., Lata, C. and Harun-Or-Rashid, M., Razzaq, M., Sajjad, M., and Basnet, B.R. (2023). Rice–wheat comparative genomics: Gains and gaps. The Crop Journal, 12(3), 656-669. https://doi.org/10.1016/j.cj.2023.10.008
+_**Biochemistry and Omics**_
+
 - Pri-Tal, O., Sun, Y., Dadras, A., Fürst-Jansen, J.M.R., Zimran, G., Michaeli, D., **_Wijerathna-Yapa, A._**, Shpilman, M., Merilo, E., Yarmolinsky, D., Efroni, I., de Vries, J., Kollist, H. and Mosquna, A. (2024), Constitutive activation of ABA receptors in Arabidopsis reveals unique regulatory circuitries. New Phytol, 241: 703-714. https://doi.org/10.1111/nph.19363.
-- **_Wijerathna-Yapa, A._**, Henry, R.J., Dunn, M. and Beveridge, C.A., (2023). Science and opinion in decision making: A case study of the food security collapse in Sri Lanka. Modern Agriculture. 1: 142 -151. https://doi.org/10.1002/moda.18 
-- Beveridge, C. A., Rameau, C., and **_Wijerathna-Yapa, A._**. (2023). Learnings from a century of apical dominance research. Journal of Experimental Botany, erad137-erad137. https://doi.org/10.1093/jxb/erad137
-- **_Wijerathna-Yapa, A._**, and Hiti-Bandaralage, J. 2023. Tissue Culture—A Sustainable Approach to Explore Plant Stresses. Life, 13(3), 780. https://doi.org/10.3390/life13030780
-- **_Wijerathna-Yapa, A._**,and Pathirana, R. (2022). Sustainable Agro-Food Systems for Addressing Climate Change and Food Security. Agriculture, 12(10), 1554. https://doi.org/10.3390/agriculture12101554
-- **_Wijerathna-Yapa, A._**, Ramtekey, V., Ranawaka, B., Basnet, B.R. (2022). Applications of In Vitro Tissue Culture Technologies in Breeding and Genetic Improvement of Wheat. Plants, 11(17):2273. https://doi.org/10.3390/plants11172273
 - Li, L., Lee, C. P., Ding, X., Qin, Y., **_Wijerathna-Yapa, A._**, Broda, M., Otegui, M. S., Ganguly, D.R., Pogson, B.J., and Millar. H. (2022). Defects in autophagy lead to selective in vivo changes in turnover of cytosolic and organelle proteins in roots and shoots of Arabidopsis. The Plant Cell, koac185, https://doi.org/10.1093/plcell/koac185
 - Li, L., Duncan, O., Ganguly, D.R., Lee, C.P., Crisp, P., **_Wijerathna-Yapa, A._**, Pogson, B.J., Salih, K., - Trosch, J., Millar, A.H., and Pogson, B.J. (2022). Metabolic enzymes degraded under high light stress - maintain their proteostasis by coupled transcriptional regulation in Arabidopsis. Proceedings of the National Academy of Sciences 119(20) e2121362119.doi: https://doi.org/10.1073/pnas.2121362119
 - **_Wijerathna-Yapa, A._**, Signorelli, S., Fenske, R., Ganguly, D.R., Stroeher, F., Li,L., Pogson, B.J., Duncan, O., and Millar. H. (2021). Autophagy mutants show delayed chloroplast development during de-etiolation in carbon limiting conditions. The Plant Journal. doi: https://doi.org/10.1111/tpj.15452
 - **_Wijerathna-Yapa, A._**, Stroeher, E., Fenske,R., Li, L., Duncan, O., and Millar, H. (2020). Proteomics for Autophagy Receptor and Cargo Identification in Plants. J. Proteome Res. American Chemical Society. doi: https://doi.org/10.1021/acs.jproteome.0c00609
+
+_**Biotechnology**_
+
+- Carra, A., **_Wijerathna-Yapa, A._**, Pathirana, R., & Carimi, F. (2024). Development and applications of somatic embryogenesis in grapevine (Vitis spp.). Plants, 13(22), 3131.  https://doi.org/10.3390/plants13223131
+- **_Wijerathna-Yapa, A._**, Bishnoi, R., Ranawaka, B., Magar, M.M., Rehman, H.U., Bharad, S.G., Lorenc, M.T., Ramtekey, V., Gohar, S., Lata, C. and Harun-Or-Rashid, M., Razzaq, M., Sajjad, M., and Basnet, B.R. (2023). Rice–wheat comparative genomics: Gains and gaps. The Crop Journal, 12(3), 656-669. https://doi.org/10.1016/j.cj.2023.10.008
+- **_Wijerathna-Yapa, A._**, and Hiti-Bandaralage, J. 2023. Tissue Culture—A Sustainable Approach to Explore Plant Stresses. Life, 13(3), 780. https://doi.org/10.3390/life13030780
+- **_Wijerathna-Yapa, A._**, Ramtekey, V., Ranawaka, B., Basnet, B.R. (2022). Applications of In Vitro Tissue Culture Technologies in Breeding and Genetic Improvement of Wheat. Plants, 11(17):2273. https://doi.org/10.3390/plants11172273
 - Sun, Y., Harpazi, B., **_Wijerathna-Yapa, A._**, Merilo, E., de Vries, J., Michaeli, D., Gal, M., Cuming, A., - Kollist, H. and Mosquna, A. (2019). A ligand-independent origin of abscisic acid perception. Proceedings of the National Academy of Science. National Academy of Sciences. 116 (49) 24892-24899.doi: https://doi.org/10.1073/pnas.1914480116
-- **_Wijerathna-Yapa, A._** (2017). Effect on Biodrying and Rapid Drying of Food Wastes for Biochar Manufacturing. - Agri Res & Tech 7 (5), 555722.[doi:10.19080/ARTOAJ.2017.07.555722](https://juniperpublishers.com/artoaj/ARTOAJ.MS.ID.555722.php)
-- Kumarihami H.M.P.C., **_Wijerathna, Y.M.A.M._**, Beneragama, C.K.  (2017). Extending the postharvest life of cut - flowers with floral preservative: mini review. Proceedings of the National Symposium on Floriculture - Research, Department of National Botanic Gardens, Sri Lanka. 52-60.
 - **_Wijerathna-Yapa, A._** (2017). Transgenic plants: resistance to abiotic and biotic stresses.  JAEID, 111 (1): 245-275.doi: https://doi.org/10.12895/jaeid.20171.643
 - **_Wijerathna, Y.M.A.M._** and Kumarihami H.M.P.C. (2016). Effects of Different Hormonal Concentrations and - Culture Medium on Multiplication and Rooting of Stage II Banana (_Musa cavendishii_). Not Sci Biol, 8(1):69-72. doi: https://doi.org/10.15835/nsb819749
 - **_Wijerathna, Y.M.A.M._** (2015). Marker-Assisted Selection: Biotechnology Tool for Rice Molecular Breeding. Adv Crop Sci Tech 3: 187. doi:10.4172/2329-8863.1000187.
@@ -37,11 +36,27 @@ title: "Selected Publications"
 - **_Wijerathna, Y.M.A.M._** (2012). Advances of Basic Molecular Biology Techniques: Potential to Apply in Plant - Viroid Detection in Sri Lanka. eSci J. Plant Pathol. 01: 88 – 93.[doi: 10.33687/phytopath.001.01.0020](https://esciencepress.net/journals/index.php/phytopath/article/view/20/19)
 - **_Wijerathna, Y.M.A.M._**, Kottearachchi, and Attanayaka, D.P.S.T.G. (2012). Assessment of Inter and Intra Cultivar Genetic and Phenotypic Variation in Grain Quality Characteristics of Sri Lankan Traditional Aromatic Rice (Oryza Sativa L.). Tropical Agriculturist. 160: 123 - 133.
 
+_**Policy and Agriculture**_
+
+- **_Wijerathna-Yapa, A._**, Henry, R.J., Dunn, M. and Beveridge, C.A., (2023). Science and opinion in decision making: A case study of the food security collapse in Sri Lanka. Modern Agriculture. 1: 142 -151. https://doi.org/10.1002/moda.18 
+- Beveridge, C. A., Rameau, C., and **_Wijerathna-Yapa, A._**. (2023). Learnings from a century of apical dominance research. Journal of Experimental Botany, erad137-erad137. https://doi.org/10.1093/jxb/erad137
+- Valladares García, A. P., **_Wijerathna-Yapa, A._**, Mishra, S., Or-Rashid, H., Nehra, M., Ramtekey, V., Ndah, R., Magar, M. M., Opondo, D., Sasha, Kumar, S., Swati, Tenesi, T., Bentley, A. R., & Basnet, B. R. (2022). In the pursuit of equality for women plant breeders around the world. https://doi.org/10.5281/zenodo.7385758
+- **_Wijerathna-Yapa, A._**,and Pathirana, R. (2022). Sustainable Agro-Food Systems for Addressing Climate Change and Food Security. Agriculture, 12(10), 1554. https://doi.org/10.3390/agriculture12101554
+- **_Wijerathna-Yapa, A._** (2017). Effect on Biodrying and Rapid Drying of Food Wastes for Biochar Manufacturing. - Agri Res & Tech 7 (5), 555722.[doi:10.19080/ARTOAJ.2017.07.555722](https://juniperpublishers.com/artoaj/ARTOAJ.MS.ID.555722.php)
+- Kumarihami H.M.P.C., **_Wijerathna, Y.M.A.M._**, Beneragama, C.K.  (2017). Extending the postharvest life of cut - flowers with floral preservative: mini review. Proceedings of the National Symposium on Floriculture - Research, Department of National Botanic Gardens, Sri Lanka. 52-60.
+
+
 **Theses and Reports**
 
 - **_Wijerathna, Y.M.A.M._** 2020. Unravelling the Underlying Components of Autophagy-mediated Photomorphogenesis of Arabidopsis thaliana. (Ph.D. dissertation, The University of Western Australia). https://doi.org/10.26182/2hpj-7605
 - **_Wijerathna, Y.M.A.M._** 2016. Analysis of Constitutively Active Pyrabactin Resistance1/Pyr1-like (pyl) Receptors in Early Development of Arabidopsis thaliana (M.Sc. dissertation, The Hebrew University of Jerusalem). https://www.nli.org.il/en/dissertations/NNL_ALEPH003951886/NLI
 - **_Wijerathna, Y.M.A.M._** 2012. Application of Biotechnology in Intra Cellular Pathogen Diagnostic of Coconut - (Cocos nucifera L.) in Sri Lanka. Report on In-plant Training Programme. The Wayamba University of Sri Lanka.
+
+**Preprints**
+
+- Li, L., Duncan, O., Ganguly, D.R., Lee, C.P., Crisp, P., **_Wijerathna-Yapa, A._**, Pogson, B.J., Salih, K., - Trosch, J., Millar, A.H., and Pogson, B.J. (2021). Metabolic enzymes degraded under high light stress - maintain their proteostasis by coupled transcriptional regulation in Arabidopsis. bioRxiv.doi: https://doi.org/10.1101/2021.10.03.462903
+- Li, L., Lee, C. P., **_Wijerathna-Yapa, A._**, Broda, M., Otegui, M. S., Ganguly, D.R., Pogson, B.J., and Millar. H. (2021). Defects in autophagy lead to selective in vivo changes in turnover of cytosolic and organelle proteins in roots and shoots of Arabidopsis. bioRxiv.doi: https://doi.org/10.1101/2021.04.29.441983
+- **_Wijerathna-Yapa, A._**, Signorelli, S., Fenske, R., Ganguly, D.R., Stroeher, F., Li,L., Pogson, B.J., Duncan, O., and Millar. H. (2021). Autophagy promotes photomorphogenesis during seedling development in Arabidopsis in carbon limiting conditions. bioRxiv.doi: https://doi.org/10.1101/2021.03.25.437007
 
 **Conference Papers**
 

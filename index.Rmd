@@ -11,22 +11,16 @@ title: "Akila Wijerathna-Yapa"
 
 ***
 
-As an interdisciplinary biotechnology scientist, I proudly hold the esteemed title of Fellow of the UK Higher Education Academy (HEA) Professional Standards Framework (UKPSF). With a rich background spanning Agricultural Biotechnology, Molecular Biology, Biochemistry, and Multi-Omics (including Proteomics, Metabolomics, and Transcriptomics), along with expertise in Design and Analysis of Experiments and Statistical Data Analysis, my contributions to the field are multifaceted.
+I am an interdisciplinary Biotechnology scientist with a proven track record in Mass Spectrometry, Proteomics, Metabolomics, NMR, and Transcriptomics. My expertise lies in utilizing these advanced technologies to unravel molecular complexities, providing critical insights that contribute to scientific discoveries and practical solutions in biotechnology and life sciences. By combining my technical skills with a strong foundation in advanced statistical data analysis, I transform complex datasets into actionable insights that drive innovation and support evidence-based decision-making.
 
-Beyond the confines of traditional research and development, I am a catalyst for positive change, an innovator, and a voracious learner with diverse interests across applied biotechnology. My fervor lies in leveraging Biotechnology applications to propel R&D forward, particularly in the realms of biosecurity and the intersection of science and management.
-
-Demonstrating adaptability through a track record of success across various roles in biotech and life sciences research, I specialize in fostering R&D infrastructures that empower organizations to unlock their full potential, aligning their efforts with the UN Sustainable Development Goals (SDGs) and fostering innovation.
-
-I eagerly anticipate engaging in multidisciplinary research collaborations where I can contribute as an inventive and resourceful scientist. Moreover, I am deeply committed to championing the effective integration of science into policy directives and management strategies, ensuring readiness to meet the evolving needs of our global community.
-
-
-
-
+I am passionate about contributing to the Research and Development sector, where I can leverage my interdisciplinary knowledge to drive transformative advancements. My ability to integrate science into innovation, project management, and strategic management uniquely positions me to tackle complex challenges and deliver measurable value. I seek opportunities to collaborate with forward-thinking organizations to make meaningful contributions to the future of biotechnology and life sciences.
 
 
 **Education**
 
-**Ph.D. (Biochem.)** | The University of Western Australia, Australia | (2017-2020)
+**M.B.A. (Business & Project Administration)** | Staffordshire University, United Kingdom | (2023-2024)
+
+**Ph.D. (Biochemistry)** | The University of Western Australia, Australia | (2017-2020)
 
 _**Thesis:**_ _Unravelling the underlying components of autophagy-mediated photomorphogenesis of Arabidopsis thaliana._
 
@@ -39,14 +33,14 @@ The Australian National University: NGS– RNASeq, Bioinformatics
 The Harry Perkins Institute of Medical Research: Microscopic studies
 
 
-**M.Sc. Agric. (Plant Molecular Biology)** | The Hebrew University of Jerusalem, Israel | (2014-2016)
+**M.Sc. (Molecular Biology)** | The Hebrew University of Jerusalem, Israel | (2014-2016)
 
 _**Thesis:**_ _Analysis of constitutively Active PYRABACTIN RESISTANCE1/ PYR1 LIKE (PYL) receptors in the early development of Arabidopsis thaliana._
 
 _**Side Project:**_ _Identifying the function and biological role of novel protein (ABA receptor-like protein) and its interactor proteins by Y2H screen with Arabidopsis thaliana cDNA library._
 
 
-**B.Sc. Agric. (Hons) [Biotechnology]** | Wayamba University of Sri Lanka | (2008-2012)
+**B.Sc. (Hons) [Biotechnology]** | Wayamba University of Sri Lanka | (2008-2012)
 
 _**Research Project:**_ _Screening of traditional rice (Oryza sativa L.) varieties for salt tolerance and molecular genetic screening of fragrant gene (badh2.1)._ 
 
