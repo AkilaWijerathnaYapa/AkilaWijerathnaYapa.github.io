@@ -16,16 +16,6 @@ navbar:
       menu:
         - text: Bayliss Data Bazaar
           href: Bayliss-Data-Bazaar.html
-        - text: Plant Biotechnology
-          href: Plant Biotechnology.html
-        - text: Plant Tissue Culture
-          href: Plant-Tissue-Culture.html
-        - text: Plant Molecular Biology
-          href: Plant-Molecular-Biology.html
-        - text: Plant Molecular Physiology
-          href: Plant-Molecular-Physiology.html
-        - text: Controlled Environment Agriculture (CEA)
-          href: Controlled-Environment-Agriculture.html
     - text: "Laboratory Protocols"
       menu:
         - text: DNA Extraction
