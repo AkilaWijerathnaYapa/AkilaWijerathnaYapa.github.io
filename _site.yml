@@ -16,10 +16,10 @@ navbar:
       menu:
         - text: Bayliss Data Bazaar
           href: Bayliss-Data-Bazaar.html
-        - text: Spectroscopy for Life Sceinces
-          href: Spectroscopy-for-Life-Sceinces.html
         - text: Mass Spectrometry
           href: Mass-Spectrometry.html
+        - text: Spectroscopy for Life Sceinces
+          href: Spectroscopy-for-Life-Sceinces.html
         - text: Nuclear Magnetic Resonance (NMR) Spectroscopy
           href: Nuclear-Magnetic-Resonance-(NMR)-Spectroscopy.html
         - text: Electron Paramagnetic Resonance (EPR) Spectroscopy
